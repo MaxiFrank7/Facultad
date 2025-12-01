@@ -4,7 +4,7 @@ Repositorio donde subo las ejercitaciones de todas aquellas materias que requier
 
 ## Primer Año
 
-### [Segundo Cuatrimestre](https://github.com/MaxiFrank7/Facultad/tree/main/2Cuatrimestre)
+### [Segundo Cuatrimestre](./2Cuatrimestre)
 
-* [Programación 2](https://github.com/MaxiFrank7/Facultad/tree/main/2Cuatrimestre/Programacion2)
-* [Bases de Datos I](https://github.com/MaxiFrank7/Facultad/tree/main/2Cuatrimestre/BasesdeDatos1)
+* [Programación 2](./2Cuatrimestre/Programacion2)
+* [Bases de Datos I](./2Cuatrimestre/BasesdeDatos1)
