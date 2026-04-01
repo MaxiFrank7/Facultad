@@ -13,8 +13,8 @@ Tambien estoy subiendo mis practicas de datasets extraidos de kaggle relacionada
 ## Segundo Año
 
 ### [Primer Cuatrimestre](./TUIA_Segundo/1Cuatrimestre)
-*
-*
+* [Programación III](./TUIA_Segundo/1Cuatrimestre/3C_Programacion_III)
+* [Ciencia de Datos](./TUIA_Segundo/1Cuatrimestre/3C_Fundamentos_Ciencia_Datos)
 ### [Segundo Cuatrimestre](./TUIA_Segundo/2Cuatrimestre)
 *
 *
