@@ -12,8 +12,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="116"
-  DTS:VersionGUID="{FCF06515-E73A-4649-AA90-3A022D2C9DF3}">
+  DTS:VersionBuild="125"
+  DTS:VersionGUID="{BC7DB423-B634-461D-8720-F0E2B0675626}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -279,7 +279,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB9RXcl4Fg0ZkNQ84KLanABRAkJk9+qVxgiVW1fQxPf9wAAAAAOgAAAAAIAACAAAABzKhl0xnOU5+0MJIWxZdnz5axiMDYccZAhYfGv4abOcCAAAACRMS6Lw4c5RvhWCzghnww2qGK4LS16DuQ3e0+1zETktkAAAACxB0ULKKNW9cGpBZdNImtwQuOzkqH5E7IHiBkbtocsRkVSNxzWD3CsHStq4IenvKJhM7U2kgUYVy2s3qvppVIt</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABqN0CIe12t4K3DkQnluov/ZvmWd9m/B998JJ/pXCdVJwAAAAAOgAAAAAIAACAAAADnmz7CYmKvqwrx+1jP6xEnFruZtqtd1baSLKQGI28GbCAAAAC6l9jfl14l55tZqweWt2kfDsOLtYSH8czoCtwFTRFYd0AAAAAb9dMxEYq/WWOUP5aTIhvtC9aCly3J5ORIaPdoQC1vpWRVN9mABym0VdPgW7L/aNIkEYyGdd5x+HUd1AEQX/aw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -294,7 +294,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABfWLlTx96M1/cEz8XoVxQNfFcTYpZLaNJowUIWd1F/8gAAAAAOgAAAAAIAACAAAADV87fwzHS/+sspVoO15jpZhGtYLosXvpo6VYQoGopRDCAAAAAFMbh/rmVRs7unArW04jLUDYpZ0xi7yoXSl5ZX7MZVZkAAAABGdolZfu7crfsHIdyFpAwYymmk4xuM++JPpzrXvVpfsHhu7oTQQzfZhD7OEWWVOuCJMKQJAIu9ME/PzeiY0lTM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADnIqa6wpEU8eJiu+Au4Eh8ntV/PoVCAyb1OQ2NjHthygAAAAAOgAAAAAIAACAAAAAYVkmkgvjjy31WM+GamqFaHkbmkxdXBPNhT+1mI09+tyAAAADuTUhDO8eJ3LvcUXL0pb/EVdpQGdufyD+9V/6TRzSoGEAAAABhhoq52CS0CTlliUCoSgqM0U52q3OIoaBaPFOhqNmCr4TVMR86z12Ya2CGhD/peICFqG13Q3wMWBT8MBLXCmgk</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -10459,7 +10459,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tabla STOCK"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="7">
+          DTS:ThreadHint="6">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10723,6 +10723,10 @@
                           refId="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[variation]"
                           dataType="i4"
                           name="variation" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_stg]"
+                          dataType="i4"
+                          name="id_stg" />
                       </externalMetadataColumns>
                     </input>
                   </inputs>
@@ -10925,7 +10929,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar FACT_STOCK"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="7">
+          DTS:ThreadHint="6">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12289,7 +12293,7 @@ FROM dbo.billing</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tabla VENTAS"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="6">
+          DTS:ThreadHint="7">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12306,12 +12310,12 @@ FROM dbo.billing</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar FACT_VENTAS"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="6">
+          DTS:ThreadHint="7">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- 1. Creamos una estructura indexada cronológicamente de las versiones de los productos&#xA;WITH DimProd_SCD2 AS (&#xA;    SELECT *,&#xA;           -- Numeramos las filas de cada producto. La versión más vieja (la que arranca el 2 de enero) será la número 1&#xA;           ROW_NUMBER() OVER(PARTITION BY product_id ORDER BY price_from ASC) AS rn_primero&#xA;    FROM dbo.DIM_PROD&#xA;),&#xA;-- 2. Buscamos el precio histórico exacto o aplicamos el Fallback Inteligente si la fecha quedó huérfana&#xA;VentasConPrecio AS (&#xA;    SELECT &#xA;        S.*,&#xA;        &#xA;        -- 🧠 EL SECRETO: Si encuentra coincidencia exacta por fecha, usa ese ID. &#xA;        -- Si no (caso del 1 de enero), usa el ID de la primera versión existente de ese producto.&#xA;        -- Si el producto directamente no existe en el catálogo, recién ahí clava -1.&#xA;        COALESCE(P_exacto.[id_dim_prod], P_primero.[id_dim_prod], -1) AS [id_prod_SCD2],&#xA;        &#xA;        -- El precio unitario solo se asigna si hubo coincidencia exacta en el tiempo. Si cayó en el &quot;gap&quot;, va 0.&#xA;        CASE WHEN P_exacto.[id_dim_prod] IS NOT NULL THEN P_exacto.[price] ELSE 0 END AS [precio_unitario],&#xA;        &#xA;        -- Heredamos la capacidad de cualquiera de los dos lados para no perder la métrica de litros consumidos&#xA;        ISNULL(COALESCE(P_exacto.[capacity], P_primero.[capacity]), 0) AS [capacidad_producto]&#xA;        &#xA;    FROM dbo.STG_SALES AS S&#xA;    &#xA;    -- Intento A: Búsqueda temporal estricta (SCD Tipo 2 tradicional)&#xA;    LEFT JOIN dbo.DIM_PROD AS P_exacto ON S.[product_id] = P_exacto.[product_id] &#xA;        AND S.[date] BETWEEN P_exacto.[price_from] AND ISNULL(P_exacto.[price_until], '99991231')&#xA;        &#xA;    -- Intento B (Fallback): Si el Intento A falló por fecha, nos enganchamos a la primera versión del producto&#xA;    LEFT JOIN DimProd_SCD2 AS P_primero ON S.[product_id] = P_primero.[product_id] AND P_primero.rn_primero = 1&#xA;),&#xA;-- 3. Sumamos los totales de cada factura usando el precio resuelto para calcular escalas de descuento&#xA;TotalesFactura AS (&#xA;    SELECT &#xA;        billing_id,&#xA;        SUM(quantity * precio_unitario) AS bruto_factura&#xA;    FROM VentasConPrecio&#xA;    GROUP BY billing_id&#xA;)&#xA;-- 4. Insertamos en la tabla de hechos definitiva&#xA;INSERT INTO dbo.FACT_VENTAS (&#xA;    billing_id, id_time, id_geo, id_customer, id_prod, id_employee,&#xA;    quantity, unit_price, gross_total_price, id_discount, discount,&#xA;    sale_total_price, lts_consumed, age_customer, age_employee,&#xA;    seniority_employee, age_group&#xA;)&#xA;SELECT &#xA;    V.[billing_id],&#xA;    TI.[id_time] AS [id_time], &#xA;    ISNULL(G.[id_geo], -1) AS [id_geo],&#xA;    ISNULL(C.[id_customer], -1) AS [id_customer],&#xA;    V.[id_prod_SCD2] AS [id_prod], -- Aquí viajará el ID real del producto en lugar de -1&#xA;    ISNULL(E.[employee_id], -1) AS [id_employee], &#xA;    V.[quantity],&#xA;    V.[precio_unitario] AS [unit_price], -- Guardará 0 para las filas del 1 de enero&#xA;    (V.[quantity] * V.[precio_unitario]) AS [gross_total_price],&#xA;    ISNULL(D.[id_discount], -1) AS [id_discount],&#xA;    &#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (ISNULL(D.[discount_percentage], 0) / 100.0), 2) AS [discount],&#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (1 - (ISNULL(D.[discount_percentage], 0) / 100.0)), 2) AS [sale_total_price],&#xA;    &#xA;    -- El cálculo de litros sigue funcionando a la perfección porque rescatamos la capacidad&#xA;    ROUND((V.[quantity] * V.[capacidad_producto]) / 1000.0, 2) AS [lts_consumed],&#xA;    &#xA;    ISNULL(DATEDIFF(YEAR, C.[birth_date], V.[date]), -1) AS [age_customer],&#xA;    ISNULL(DATEDIFF(YEAR, E.[birth_date], V.[date]), -1) AS [age_employee],&#xA;    ISNULL(DATEDIFF(YEAR, E.[employment_date], V.[date]), -1) AS [seniority_employee],&#xA;    &#xA;    CASE &#xA;        WHEN C.[birth_date] IS NULL THEN 'No Especificado'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 13 AND 19 THEN 'Adolescentes'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 20 AND 30 THEN 'Joven adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 31 AND 40 THEN 'Adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 41 AND 50 THEN 'Adultos medios'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 51 AND 60 THEN 'Adulto maduro'&#xA;        ELSE 'Adulto mayor'&#xA;    END AS [age_group]&#xA;&#xA;FROM VentasConPrecio AS V&#xA;INNER JOIN dbo.DIM_TIME AS TI ON V.[date] = TI.[id_time] &#xA;LEFT JOIN dbo.DIM_CUSTOMER AS C ON V.[customer_id] = C.[id_customer]&#xA;LEFT JOIN dbo.DIM_EMPLOYEE AS E ON V.[employee_id] = E.[employee_id]&#xA;LEFT JOIN dbo.DIM_GEO AS G ON TRIM(C.[zipcode]) = TRIM(G.[zipcode])&#xA;LEFT JOIN TotalesFactura AS T ON V.[billing_id] = T.[billing_id]&#xA;LEFT JOIN dbo.DIM_DISCOUNT AS D ON T.[bruto_factura] &gt;= D.[min_total_sale]&#xA;    AND V.[date] BETWEEN D.[from] AND ISNULL(D.[until], '99991231')&#xA;WHERE V.[date] IS NOT NULL;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- 1. Estructura para el Fallback temporal de Productos (SCD2)&#xA;WITH DimProd_SCD2 AS (&#xA;    SELECT *,&#xA;           -- Numeramos las versiones cronológicas de cada artículo&#xA;           ROW_NUMBER() OVER(PARTITION BY product_id ORDER BY price_from ASC) AS rn_primero&#xA;    FROM dbo.DIM_PROD&#xA;),&#xA;-- 2. Buscamos el precio histórico o aplicamos contingencias si el ID o la fecha son NULL&#xA;VentasConPrecio AS (&#xA;    SELECT &#xA;        S.*,&#xA;        -- Si el product_id es NULL en el origen, el COALESCE cae directo al -1 que creaste en la dimensión&#xA;        COALESCE(P_exacto.[id_dim_prod], P_primero.[id_dim_prod], -1) AS [id_prod_SCD2],&#xA;        CASE WHEN P_exacto.[id_dim_prod] IS NOT NULL THEN P_exacto.[price] ELSE 0 END AS [precio_unitario],&#xA;        ISNULL(COALESCE(P_exacto.[capacity], P_primero.[capacity]), 0) AS [capacidad_producto]&#xA;    FROM dbo.STG_SALES AS S&#xA;    LEFT JOIN dbo.DIM_PROD AS P_exacto ON S.[product_id] = P_exacto.[product_id] &#xA;        AND S.[date] BETWEEN P_exacto.[price_from] AND ISNULL(P_exacto.[price_until], '99991231')&#xA;    LEFT JOIN DimProd_SCD2 AS P_primero ON S.[product_id] = P_primero.[product_id] AND P_primero.rn_primero = 1&#xA;),&#xA;-- 3. Sumamos los totales de cada factura usando el precio resuelto para calcular escalas de descuento&#xA;TotalesFactura AS (&#xA;    SELECT &#xA;        billing_id,&#xA;        SUM(quantity * precio_unitario) AS bruto_factura&#xA;    FROM VentasConPrecio&#xA;    GROUP BY billing_id&#xA;)&#xA;-- 4. Insertamos en la tabla de hechos definitiva la totalidad de las filas&#xA;INSERT INTO dbo.FACT_VENTAS (&#xA;    billing_id, id_time, id_geo, id_customer, id_prod, id_employee,&#xA;    quantity, unit_price, gross_total_price, id_discount, discount,&#xA;    sale_total_price, lts_consumed, age_customer, age_employee,&#xA;    seniority_employee, age_group&#xA;)&#xA;SELECT &#xA;    V.[billing_id],&#xA;    &#xA;    -- 🧠 DIRECTIVA PROFESOR: Mapeamos la fecha a la fila master de la dimensión de tiempo&#xA;    TI.[id_time] AS [id_time], &#xA;    &#xA;    -- Si el cliente es NULL, C.[id_customer] devolverá -1, su zipcode asociado será 'NNNNN' &#xA;    -- y cruzará de forma nativa con el id_geo = -1 de Geografía. El ISNULL acá actúa como doble escudo.&#xA;    ISNULL(G.[id_geo], -1) AS [id_geo],&#xA;    &#xA;    -- DIRECTIVA PROFESOR: Escudos para Clientes y Empleados si vienen NULL en Staging&#xA;    ISNULL(C.[id_customer], -1) AS [id_customer],&#xA;    V.[id_prod_SCD2] AS [id_prod],&#xA;    ISNULL(E.[employee_id], -1) AS [id_employee], &#xA;    &#xA;    V.[quantity],&#xA;    V.[precio_unitario] AS [unit_price],&#xA;    (V.[quantity] * V.[precio_unitario]) AS [gross_total_price],&#xA;    ISNULL(D.[id_discount], -1) AS [id_discount],&#xA;    &#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (ISNULL(D.[discount_percentage], 0) / 100.0), 2) AS [discount],&#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (1 - (ISNULL(D.[discount_percentage], 0) / 100.0)), 2) AS [sale_total_price],&#xA;    ROUND((V.[quantity] * V.[capacidad_producto]) / 1000.0, 2) AS [lts_consumed],&#xA;    &#xA;    -- Manejo seguro de cálculos de edad. Si la fecha o el nacimiento son NULL, DATEDIFF da NULL e impacta el -1&#xA;    ISNULL(DATEDIFF(YEAR, C.[birth_date], V.[date]), -1) AS [age_customer],&#xA;    ISNULL(DATEDIFF(YEAR, E.[birth_date], V.[date]), -1) AS [age_employee],&#xA;    ISNULL(DATEDIFF(YEAR, E.[employment_date], V.[date]), -1) AS [seniority_employee],&#xA;    &#xA;    CASE &#xA;        WHEN C.[birth_date] IS NULL OR V.[date] IS NULL THEN 'No Especificado'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 13 AND 19 THEN 'Adolescentes'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 20 AND 30 THEN 'Joven adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 31 AND 40 THEN 'Adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 41 AND 50 THEN 'Adultos medios'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 51 AND 60 THEN 'Adulto maduro'&#xA;        ELSE 'Adulto mayor'&#xA;    END AS [age_group]&#xA;&#xA;FROM VentasConPrecio AS V&#xA;&#xA;-- 🧠 CRUCE CLAVE: Convertimos programáticamente el NULL en '19000101' para forzar el acople con tu nueva fila de DIM_TIME&#xA;INNER JOIN dbo.DIM_TIME AS TI ON ISNULL(V.[date], '19000101') = TI.[id_time]&#xA;&#xA;LEFT JOIN dbo.DIM_CUSTOMER AS C ON V.[customer_id] = C.[id_customer]&#xA;LEFT JOIN dbo.DIM_EMPLOYEE AS E ON V.[employee_id] = E.[employee_id]&#xA;LEFT JOIN dbo.DIM_GEO AS G ON TRIM(C.[zipcode]) = TRIM(G.[zipcode])&#xA;LEFT JOIN TotalesFactura AS T ON V.[billing_id] = T.[billing_id]&#xA;LEFT JOIN dbo.DIM_DISCOUNT AS D ON T.[bruto_factura] &gt;= D.[min_total_sale]&#xA;    AND V.[date] BETWEEN D.[from] AND ISNULL(D.[until], '99991231');" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
@@ -12368,12 +12372,12 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Inicializar tabla CUSTOMER"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos versiones previas de pruebas&#xA;IF OBJECT_ID('dbo.DIM_CUSTOMER', 'U') IS NOT NULL DROP TABLE dbo.DIM_CUSTOMER;&#xA;IF OBJECT_ID('dbo.STG_CUSTOMER', 'U') IS NOT NULL DROP TABLE dbo.STG_CUSTOMER;&#xA;&#xA;-- 1. Tabla de Staging Unificada (Con columna para el Tipo de Cliente)&#xA;CREATE TABLE dbo.STG_CUSTOMER (&#xA;    [customer_id] INT NULL,&#xA;    [customer_type] VARCHAR(10) NULL, -- Recibirá 'R' o 'W' desde Visual Studio&#xA;    [full_name] VARCHAR(255) NULL,&#xA;    [birth_date] VARCHAR(255) NULL,  -- VARCHAR obligatorio para tolerar '44/45/1943' o '11j/03/1968'&#xA;    [city] VARCHAR(255) NULL,&#xA;    [state] VARCHAR(255) NULL,&#xA;    [zipcode] VARCHAR(255) NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final (id_customer como PK Natural sin auto-incremental)&#xA;CREATE TABLE dbo.DIM_CUSTOMER (&#xA;    [id_customer] INT NOT NULL PRIMARY KEY, -- Clave Primaria de los archivos&#xA;    [customer_type] VARCHAR(10) NOT NULL,&#xA;    [full_name] VARCHAR(150) NOT NULL,&#xA;    [birth_date] DATE NOT NULL,&#xA;    [city] VARCHAR(100) NOT NULL,&#xA;    [state] VARCHAR(100) NOT NULL,&#xA;    [zipcode] VARCHAR(20) NOT NULL&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos versiones previas de pruebas&#xA;IF OBJECT_ID('dbo.DIM_CUSTOMER', 'U') IS NOT NULL DROP TABLE dbo.DIM_CUSTOMER;&#xA;IF OBJECT_ID('dbo.STG_CUSTOMER', 'U') IS NOT NULL DROP TABLE dbo.STG_CUSTOMER;&#xA;&#xA;-- 1. Tabla de Staging Unificada (Con columna para el Tipo de Cliente)&#xA;CREATE TABLE dbo.STG_CUSTOMER (&#xA;    [customer_id] INT NULL,&#xA;    [customer_type] VARCHAR(10) NULL, -- Recibirá 'R' o 'W' desde Visual Studio&#xA;    [full_name] VARCHAR(255) NULL,&#xA;    [birth_date] VARCHAR(255) NULL,  -- VARCHAR obligatorio para tolerar '44/45/1943' o '11j/03/1968'&#xA;    [city] VARCHAR(255) NULL,&#xA;    [state] VARCHAR(255) NULL,&#xA;    [zipcode] VARCHAR(255) NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final (id_customer como PK Natural sin auto-incremental)&#xA;CREATE TABLE dbo.DIM_CUSTOMER (&#xA;    [id_customer] INT NOT NULL PRIMARY KEY, -- Clave Primaria de los archivos&#xA;    [customer_type] VARCHAR(10) NOT NULL,&#xA;    [full_name] VARCHAR(150) NOT NULL,&#xA;    [birth_date] DATE NOT NULL,&#xA;    [city] VARCHAR(100) NOT NULL,&#xA;    [state] VARCHAR(100) NOT NULL,&#xA;    [zipcode] VARCHAR(20) NOT NULL&#xA;);&#xA;&#xA;BEGIN TRY&#xA;    SET IDENTITY_INSERT dbo.DIM_CUSTOMER ON;&#xA;    INSERT INTO dbo.DIM_CUSTOMER (id_customer, customer_type, full_name, birth_date, state, city, zipcode)&#xA;    VALUES (-1, 'NN', 'Nombre desconocido', '19000101', 'Estado desconocido', 'Ciudad desconocida', 'NNNNN');&#xA;    SET IDENTITY_INSERT dbo.DIM_CUSTOMER OFF;&#xA;END TRY&#xA;BEGIN CATCH&#xA;    INSERT INTO dbo.DIM_CUSTOMER (id_customer, customer_type, full_name, birth_date, state, city, zipcode)&#xA;    VALUES (-1, 'NN', 'Nombre desconocido', '19000101', 'Estado desconocido', 'Ciudad desconocida', 'NNNNN');&#xA;END CATCH;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -12385,12 +12389,12 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Inicializar tabla EMPLOYEE"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;IF OBJECT_ID('dbo.DIM_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.DIM_EMPLOYEE;&#xA;IF OBJECT_ID('dbo.STG_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.STG_EMPLOYEE;&#xA;&#xA;-- La tabla intermedia ahora recibe el ID directamente como ENTERO&#xA;CREATE TABLE dbo.STG_EMPLOYEE (&#xA;    [employee_id] INT NULL,        &#xA;    [full_name] VARCHAR(255) NULL,&#xA;    [gender] VARCHAR(255) NULL,&#xA;    [category] VARCHAR(255) NULL,&#xA;    [employment_date] DATE NULL,      &#xA;    [birth_date] DATE NULL,            &#xA;    [education_level] VARCHAR(255) NULL&#xA;);&#xA;&#xA;CREATE TABLE dbo.DIM_EMPLOYEE (&#xA;    [employee_id] INT NOT NULL PRIMARY KEY, &#xA;    [full_name] VARCHAR(150) NOT NULL,&#xA;    [category] VARCHAR(100) NOT NULL,&#xA;    [employment_date] DATE NOT NULL,&#xA;    [birth_date] DATE NOT NULL,&#xA;    [education_level] VARCHAR(100) NOT NULL,&#xA;    [gender] VARCHAR(20) NOT NULL&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;IF OBJECT_ID('dbo.DIM_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.DIM_EMPLOYEE;&#xA;IF OBJECT_ID('dbo.STG_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.STG_EMPLOYEE;&#xA;&#xA;-- La tabla intermedia ahora recibe el ID directamente como ENTERO&#xA;CREATE TABLE dbo.STG_EMPLOYEE (&#xA;    [employee_id] INT NULL,        &#xA;    [full_name] VARCHAR(255) NULL,&#xA;    [gender] VARCHAR(255) NULL,&#xA;    [category] VARCHAR(255) NULL,&#xA;    [employment_date] DATE NULL,      &#xA;    [birth_date] DATE NULL,            &#xA;    [education_level] VARCHAR(255) NULL&#xA;);&#xA;&#xA;CREATE TABLE dbo.DIM_EMPLOYEE (&#xA;    [employee_id] INT NOT NULL PRIMARY KEY, &#xA;    [full_name] VARCHAR(150) NOT NULL,&#xA;    [category] VARCHAR(100) NOT NULL,&#xA;    [employment_date] DATE NOT NULL,&#xA;    [birth_date] DATE NOT NULL,&#xA;    [education_level] VARCHAR(100) NOT NULL,&#xA;    [gender] VARCHAR(20) NOT NULL&#xA;);&#xA;&#xA;&#xA;BEGIN TRY&#xA;    SET IDENTITY_INSERT dbo.DIM_EMPLOYEE ON;&#xA;    INSERT INTO dbo.DIM_EMPLOYEE (employee_id, full_name, category, birth_date, employment_date, education_level, gender)&#xA;    VALUES (-1, 'Nombre desconocido', 'Categoria desconocida', '19000101', '19000101', 'Desconocido', 'NN');&#xA;    SET IDENTITY_INSERT dbo.DIM_EMPLOYEE OFF;&#xA;END TRY&#xA;BEGIN CATCH&#xA;    INSERT INTO dbo.DIM_EMPLOYEE (employee_id, full_name, category, birth_date, employment_date, education_level, gender)&#xA;    VALUES (-1, 'Nombre desconocido', 'Categoria desconocida', '19000101', '19000101', 'Desconocido', 'NN');&#xA;END CATCH;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -12407,7 +12411,7 @@ FROM dbo.billing</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos todo lo viejo por si acaso&#xA;IF OBJECT_ID('dbo.DIM_PROD', 'U') IS NOT NULL DROP TABLE dbo.DIM_PROD;&#xA;IF OBJECT_ID('dbo.STG_PRODUCT', 'U') IS NOT NULL DROP TABLE dbo.STG_PRODUCT;&#xA;IF OBJECT_ID('dbo.STG_PRICE', 'U') IS NOT NULL DROP TABLE dbo.STG_PRICE;&#xA;&#xA;-- Creamos Staging para el archivo plano de texto&#xA;CREATE TABLE dbo.STG_PRODUCT (&#xA;    [PRODUCT_ID] INT NULL,&#xA;    [DETAIL] VARCHAR(250) NULL,&#xA;    [PACKAGE] VARCHAR(250) NULL&#xA;);&#xA;&#xA;-- Creamos Staging para los precios históricos de MySQL&#xA;CREATE TABLE dbo.STG_PRICE (&#xA;    [product_id] INT NULL,&#xA;[date] DATETIME NULL,&#xA;[price] FLOAT NULL&#xA;);&#xA;&#xA;-- Creamos la DIM_PROD final EXACTAMENTE igual a tu JSON&#xA;CREATE TABLE dbo.DIM_PROD (&#xA;    [id_dim_prod] INT IDENTITY(1,1) NOT NULL PRIMARY KEY, -- Clave subrogada automática&#xA;    [product_id] INT NOT NULL,&#xA;    [name] VARCHAR(100) NOT NULL,&#xA;    [category_ml] VARCHAR(100) NOT NULL,&#xA;    [packaging] VARCHAR(100) NOT NULL,&#xA;    [capacity] INT NOT NULL,&#xA;    [diet] BIT NOT NULL,                              -- BOOLEAN en SQL es BIT&#xA;    [price] FLOAT NOT NULL,&#xA;    [discontinued] BIT NOT NULL,                      -- BOOLEAN&#xA;    [price_from] DATETIME NOT NULL,&#xA;    [price_until] DATETIME NULL                       -- Puede ser NULL si es el precio actual&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos todo lo viejo por si acaso&#xA;IF OBJECT_ID('dbo.DIM_PROD', 'U') IS NOT NULL DROP TABLE dbo.DIM_PROD;&#xA;IF OBJECT_ID('dbo.STG_PRODUCT', 'U') IS NOT NULL DROP TABLE dbo.STG_PRODUCT;&#xA;IF OBJECT_ID('dbo.STG_PRICE', 'U') IS NOT NULL DROP TABLE dbo.STG_PRICE;&#xA;&#xA;-- Creamos Staging para el archivo plano de texto&#xA;CREATE TABLE dbo.STG_PRODUCT (&#xA;    [PRODUCT_ID] INT NULL,&#xA;    [DETAIL] VARCHAR(250) NULL,&#xA;    [PACKAGE] VARCHAR(250) NULL&#xA;);&#xA;&#xA;-- Creamos Staging para los precios históricos de MySQL&#xA;CREATE TABLE dbo.STG_PRICE (&#xA;    [product_id] INT NULL,&#xA;[date] DATETIME NULL,&#xA;[price] FLOAT NULL&#xA;);&#xA;&#xA;-- Creamos la DIM_PROD final EXACTAMENTE igual a tu JSON&#xA;CREATE TABLE dbo.DIM_PROD (&#xA;    [id_dim_prod] INT IDENTITY(1,1) NOT NULL PRIMARY KEY, -- Clave subrogada automática&#xA;    [product_id] INT NOT NULL,&#xA;    [name] VARCHAR(100) NOT NULL,&#xA;    [category_ml] VARCHAR(100) NOT NULL,&#xA;    [packaging] VARCHAR(100) NOT NULL,&#xA;    [capacity] INT NOT NULL,&#xA;    [diet] BIT NOT NULL,                              -- BOOLEAN en SQL es BIT&#xA;    [price] FLOAT NOT NULL,&#xA;    [discontinued] BIT NOT NULL,                      -- BOOLEAN&#xA;    [price_from] DATETIME NOT NULL,&#xA;    [price_until] DATETIME NULL                       -- Puede ser NULL si es el precio actual&#xA;);&#xA;&#xA;-- Clavamos el registro -1 apenas nace la tabla&#xA;BEGIN TRY&#xA;    SET IDENTITY_INSERT dbo.DIM_PROD ON;&#xA;    INSERT INTO dbo.DIM_PROD (id_dim_prod, product_id, name, category_ml, packaging, capacity, diet, price, discontinued, price_from, price_until)&#xA;    VALUES (-1, -1, 'Nombre desconocido', 'Categoria desconocida', 'Desconocido', -1, 0, -1, 0, '20000101', NULL);&#xA;    SET IDENTITY_INSERT dbo.DIM_PROD OFF;&#xA;END TRY&#xA;BEGIN CATCH&#xA;    INSERT INTO dbo.DIM_PROD (id_dim_prod, product_id, name, category_ml, packaging, capacity, diet, price, discontinued, price_from, price_until)&#xA;    VALUES (-1, -1, 'Nombre desconocido', 'Categoria desconocida', 'Desconocido', -1, 0, -1, 0, '20000101', NULL);&#xA;END CATCH;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -12419,12 +12423,12 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Inicializar Tablas de DISCOUNTS"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos las tablas si ya existían de una corrida previa&#xA;IF OBJECT_ID('dbo.DIM_DISCOUNT', 'U') IS NOT NULL DROP TABLE dbo.DIM_DISCOUNT;&#xA;IF OBJECT_ID('dbo.STG_DISCOUNT', 'U') IS NOT NULL DROP TABLE dbo.STG_DISCOUNT;&#xA;&#xA;-- 1. Tabla de Staging (Espejo fiel de la nube de MySQL)&#xA;CREATE TABLE dbo.STG_DISCOUNT (&#xA;    [discount_id] INT NULL,&#xA;    [from] DATE NULL,&#xA;    [until] DATE NULL,&#xA;    [total_billing] FLOAT NULL,&#xA;    [percentage] FLOAT NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final usa el ID original como PK&#xA;CREATE TABLE dbo.DIM_DISCOUNT (&#xA;    [id_discount] INT NOT NULL PRIMARY KEY, -- PK Natural (Cargada desde el origen, sin auto-incremental)&#xA;    [min_total_sale] FLOAT NOT NULL,       &#xA;    [discount_percentage] FLOAT NOT NULL,   &#xA;    [from] DATE NOT NULL,&#xA;    [until] DATE NULL&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos las tablas si ya existían de una corrida previa&#xA;IF OBJECT_ID('dbo.DIM_DISCOUNT', 'U') IS NOT NULL DROP TABLE dbo.DIM_DISCOUNT;&#xA;IF OBJECT_ID('dbo.STG_DISCOUNT', 'U') IS NOT NULL DROP TABLE dbo.STG_DISCOUNT;&#xA;&#xA;-- 1. Tabla de Staging (Espejo fiel de la nube de MySQL)&#xA;CREATE TABLE dbo.STG_DISCOUNT (&#xA;    [discount_id] INT NULL,&#xA;    [from] DATE NULL,&#xA;    [until] DATE NULL,&#xA;    [total_billing] FLOAT NULL,&#xA;    [percentage] FLOAT NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final usa el ID original como PK&#xA;CREATE TABLE dbo.DIM_DISCOUNT (&#xA;    [id_discount] INT NOT NULL PRIMARY KEY, -- PK Natural (Cargada desde el origen, sin auto-incremental)&#xA;    [min_total_sale] FLOAT NOT NULL,       &#xA;    [discount_percentage] FLOAT NOT NULL,   &#xA;    [from] DATE NOT NULL,&#xA;    [until] DATE NULL&#xA;);&#xA;&#xA;-- ... (Acá va tu DROP y CREATE TABLE de DIM_DISCOUNT) ...&#xA;&#xA;INSERT INTO dbo.DIM_DISCOUNT (id_discount, min_total_sale, discount_percentage, [from], [until])&#xA;VALUES (-1, 99999999, 0.0, '20000101', NULL);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -12441,7 +12445,7 @@ FROM dbo.billing</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos las tablas si ya existían de una corrida previa&#xA;IF OBJECT_ID('dbo.DIM_GEO', 'U') IS NOT NULL DROP TABLE dbo.DIM_GEO;&#xA;IF OBJECT_ID('dbo.STG_GEO', 'U') IS NOT NULL DROP TABLE dbo.STG_GEO;&#xA;&#xA;-- 1. Tabla de Staging (Espejo para absorber el archivo de texto plano)&#xA;CREATE TABLE dbo.STG_GEO (&#xA;    [region] VARCHAR(255) NULL,&#xA;    [state] VARCHAR(255) NULL,&#xA;    [city] VARCHAR(255) NULL,&#xA;    [zipcode] VARCHAR(255) NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final (Con id_geo como AUTO-INCREMENTAL e incluyendo la columna City)&#xA;CREATE TABLE dbo.DIM_GEO (&#xA;    [id_geo] INT IDENTITY(1,1) NOT NULL PRIMARY KEY, -- Clave subrogada automática&#xA;    [region] VARCHAR(100) NOT NULL,&#xA;    [state] VARCHAR(100) NOT NULL,&#xA;    [city] VARCHAR(100) NOT NULL,&#xA;    [zipcode] VARCHAR(20) NOT NULL&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Borramos las tablas si ya existían de una corrida previa&#xA;IF OBJECT_ID('dbo.DIM_GEO', 'U') IS NOT NULL DROP TABLE dbo.DIM_GEO;&#xA;IF OBJECT_ID('dbo.STG_GEO', 'U') IS NOT NULL DROP TABLE dbo.STG_GEO;&#xA;&#xA;-- 1. Tabla de Staging (Espejo para absorber el archivo de texto plano)&#xA;CREATE TABLE dbo.STG_GEO (&#xA;    [region] VARCHAR(255) NULL,&#xA;    [state] VARCHAR(255) NULL,&#xA;    [city] VARCHAR(255) NULL,&#xA;    [zipcode] VARCHAR(255) NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final (Con id_geo como AUTO-INCREMENTAL e incluyendo la columna City)&#xA;CREATE TABLE dbo.DIM_GEO (&#xA;    [id_geo] INT IDENTITY(1,1) NOT NULL PRIMARY KEY, -- Clave subrogada automática&#xA;    [region] VARCHAR(100) NOT NULL,&#xA;    [state] VARCHAR(100) NOT NULL,&#xA;    [city] VARCHAR(100) NOT NULL,&#xA;    [zipcode] VARCHAR(20) NOT NULL&#xA;);&#xA;&#xA;BEGIN TRY&#xA;    SET IDENTITY_INSERT dbo.DIM_GEO ON;&#xA;    INSERT INTO dbo.DIM_GEO (id_geo, region, state, city, zipcode)&#xA;    VALUES (-1, 'Region desconocida', 'Estado desconocido', 'Ciudad desconocida', 'NNNNN');&#xA;    SET IDENTITY_INSERT dbo.DIM_GEO OFF;&#xA;END TRY&#xA;BEGIN CATCH&#xA;    INSERT INTO dbo.DIM_GEO (id_geo, region, state, city, zipcode)&#xA;    VALUES (-1, 'Region desconocida', 'Estado desconocido', 'Ciudad desconocida', 'NNNNN');&#xA;END CATCH;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -12459,7 +12463,7 @@ FROM dbo.billing</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;IF OBJECT_ID('dbo.DIM_TIME', 'U') IS NOT NULL DROP TABLE dbo.DIM_TIME;&#xA;IF OBJECT_ID('dbo.STG_HOLIDAY', 'U') IS NOT NULL DROP TABLE dbo.STG_HOLIDAY;&#xA;&#xA;-- 1. Tabla de Staging para absorber el CSV de feriados crudo&#xA;CREATE TABLE dbo.STG_HOLIDAY (&#xA;    [DATE] VARCHAR(100) NULL,&#xA;    [HOLIDAY] VARCHAR(255) NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final según tu JSON (BOOLEAN mapea a BIT en SQL Server)&#xA;CREATE TABLE dbo.DIM_TIME (&#xA;    [id_time] DATE NOT NULL PRIMARY KEY,&#xA;    [YYYYMMDD] VARCHAR(20) NOT NULL,&#xA;    [day] INT NOT NULL,&#xA;    [day_name] VARCHAR(30) NOT NULL,&#xA;    [month] INT NOT NULL,&#xA;    [month_day] VARCHAR(30) NOT NULL, -- Almacenará el nombre del mes descriptivo&#xA;    [year] INT NOT NULL,&#xA;    [holiday] BIT NOT NULL,&#xA;    [weekend] BIT NOT NULL,&#xA;    [quarter] INT NOT NULL,&#xA;    [semester] INT NOT NULL&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;IF OBJECT_ID('dbo.DIM_TIME', 'U') IS NOT NULL DROP TABLE dbo.DIM_TIME;&#xA;IF OBJECT_ID('dbo.STG_HOLIDAY', 'U') IS NOT NULL DROP TABLE dbo.STG_HOLIDAY;&#xA;&#xA;-- 1. Tabla de Staging para absorber el CSV de feriados crudo&#xA;CREATE TABLE dbo.STG_HOLIDAY (&#xA;    [DATE] VARCHAR(100) NULL,&#xA;    [HOLIDAY] VARCHAR(255) NULL&#xA;);&#xA;&#xA;-- 2. Dimensión Final según tu JSON (BOOLEAN mapea a BIT en SQL Server)&#xA;CREATE TABLE dbo.DIM_TIME (&#xA;    [id_time] DATE NOT NULL PRIMARY KEY,&#xA;    [YYYYMMDD] VARCHAR(20) NOT NULL,&#xA;    [day] INT NOT NULL,&#xA;    [day_name] VARCHAR(30) NOT NULL,&#xA;    [month] INT NOT NULL,&#xA;    [month_day] VARCHAR(30) NOT NULL, -- Almacenará el nombre del mes descriptivo&#xA;    [year] INT NOT NULL,&#xA;    [holiday] BIT NOT NULL,&#xA;    [weekend] BIT NOT NULL,&#xA;    [quarter] INT NOT NULL,&#xA;    [semester] INT NOT NULL&#xA;);&#xA;&#xA;-- Inyectamos el miembro por defecto respetando de forma estricta los NOT NULL&#xA;IF NOT EXISTS (SELECT 1 FROM dbo.DIM_TIME WHERE id_time = '19000101')&#xA;BEGIN&#xA;    INSERT INTO dbo.DIM_TIME (&#xA;        [id_time], &#xA;        [YYYYMMDD], &#xA;        [day], &#xA;        [day_name], &#xA;        [month], &#xA;        [month_day], &#xA;        [year], &#xA;        [holiday], &#xA;        [weekend], &#xA;        [quarter], &#xA;        [semester]&#xA;    )&#xA;    VALUES (&#xA;        '19000101',           -- id_time (PK)&#xA;        '19000101',           -- YYYYMMDD&#xA;        -1,                    -- day&#xA;        'No Especificado',    -- day_name&#xA;        -1,                    -- month&#xA;        'No Especificado',    -- month_day&#xA;        1900,                 -- year&#xA;        0,                    -- holiday (BIT - Falso)&#xA;        0,                    -- weekend (BIT - Falso)&#xA;        -1,                    -- quarter&#xA;        -1                     -- semester&#xA;    );&#xA;END;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -12471,7 +12475,7 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Transformar y Cargar DIM_CUSTOMER"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -12488,7 +12492,7 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Transformar y Cargar DIM_DISCOUNT"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -12505,7 +12509,7 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Transformar y Cargar DIM_EMPLOYEE"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -12726,6 +12730,69 @@ FROM dbo.billing</property>
           Size="238.4,41.6"
           Id="Package\Cargar STG_PRODUCT desde TXT"
           TopLeft="342.857143586996,120.058823424176" />
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\Contenedor FACT_STOCK\Inicializar tabla STOCK"
+          TopLeft="48.6020420436089,9.77899151620318" />
+        <NodeLayout
+          Size="175.2,41.6"
+          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos"
+          TopLeft="59.2142869002968,84.5689074433297" />
+        <NodeLayout
+          Size="245.6,41.6"
+          Id="Package\Contenedor FACT_STOCK\Transformar y Cargar FACT_STOCK"
+          TopLeft="23.1778619712653,158.921848479996" />
+        <EdgeLayout
+          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción]"
+          TopLeft="143.908164471953,51.3789915162032">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.1899159271266"
+              Start="0,0"
+              End="0,25.6899159271266">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.6899159271266" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción 1]"
+          TopLeft="146.396074435781,126.16890744333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32.752941036666"
+              Start="0,0"
+              End="0,25.252941036666">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.252941036666" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="300,260"
+          Size="300,303.2"
+          Id="Package\Contenedor FACT_STOCK"
+          TopLeft="969.255103231172,528.037815065724" />
         <NodeLayout
           Size="231.2,41.6"
           Id="Package\Contenedor FACT_VENTAS\Cargar Ventas Actuales (MySQL)"
@@ -13219,69 +13286,6 @@ FROM dbo.billing</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="184.8,41.6"
-          Id="Package\Contenedor FACT_STOCK\Inicializar tabla STOCK"
-          TopLeft="48.6020420436089,9.77899151620318" />
-        <NodeLayout
-          Size="175.2,41.6"
-          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos"
-          TopLeft="59.2142869002968,84.5689074433297" />
-        <EdgeLayout
-          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción]"
-          TopLeft="143.908164471953,51.3789915162032">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33.1899159271266"
-              Start="0,0"
-              End="0,25.6899159271266">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.6899159271266" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="245.6,41.6"
-          Id="Package\Contenedor FACT_STOCK\Transformar y Cargar FACT_STOCK"
-          TopLeft="23.1778619712653,158.921848479996" />
-        <EdgeLayout
-          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción 1]"
-          TopLeft="146.396074435781,126.16890744333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32.752941036666"
-              Start="0,0"
-              End="0,25.252941036666">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.252941036666" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43"
-          IsExpanded="True"
-          PanelSize="300,260"
-          Size="300,303.2"
-          Id="Package\Contenedor FACT_STOCK"
-          TopLeft="969.255103231172,528.037815065724" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -14792,6 +14796,83 @@ FROM dbo.billing</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Contenedor FACT_STOCK\Tarea Flujo de datos">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="168,41.6"
+          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Destino de OLE DB"
+          TopLeft="256.928571836073,180.97058813408" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Conversión de datos"
+          TopLeft="249.071429026066,92.8529411261985" />
+        <NodeLayout
+          Size="190.4,41.6"
+          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Origen de archivo plano"
+          TopLeft="244.785714795091,10.8529411717785" />
+        <EdgeLayout
+          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
+          TopLeft="338.128571910578,52.4529411717785">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.39999995442"
+              Start="0,0"
+              End="0,32.89999995442">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,32.89999995442" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos.Paths[Salida de conversión de datos]"
+          TopLeft="338.600000431069,134.452941126199">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,46.5176470078812"
+              Start="0,0"
+              End="0,39.0176470078812">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.0176470078812" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Destino de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Contenedor FACT_VENTAS\Cargar Ventas Actuales (MySQL)">
     <LayoutInfo>
       <GraphLayout
@@ -14927,82 +15008,5 @@ FROM dbo.billing</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <TaskHost
-    design-time-name="Package\Contenedor FACT_STOCK\Tarea Flujo de datos">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="190.4,41.6"
-          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Origen de archivo plano"
-          TopLeft="244.785714795091,10.8529411717785" />
-        <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Conversión de datos"
-          TopLeft="249.071429026066,92.8529411261985" />
-        <EdgeLayout
-          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos.Paths[Salida de origen de archivo plano]"
-          TopLeft="338.128571910578,52.4529411717785">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40.39999995442"
-              Start="0,0"
-              End="0,32.89999995442">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.89999995442" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="168,41.6"
-          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Destino de OLE DB"
-          TopLeft="256.928571836073,180.97058813408" />
-        <EdgeLayout
-          Id="Package\Contenedor FACT_STOCK\Tarea Flujo de datos.Paths[Salida de conversión de datos]"
-          TopLeft="338.600000431069,134.452941126199">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46.5176470078812"
-              Start="0,0"
-              End="0,39.0176470078812">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.0176470078812" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Contenedor FACT_STOCK\Tarea Flujo de datos\Destino de OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
