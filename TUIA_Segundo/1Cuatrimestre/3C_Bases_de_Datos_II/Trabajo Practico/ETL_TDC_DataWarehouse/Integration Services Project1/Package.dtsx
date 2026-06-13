@@ -12,8 +12,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="145"
-  DTS:VersionGUID="{D46A01E0-FBF2-4E80-A96D-89B673C558B5}">
+  DTS:VersionBuild="160"
+  DTS:VersionGUID="{5F0EB330-EC2E-4D2F-A2D6-DD3B587A17AB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -291,7 +291,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACwjcLE1YSXghwxksvWQHOEHRVX49lZiO78bGGXAJhcQgAAAAAOgAAAAAIAACAAAACBJu0GNdO7SP+N3i9C/w/2qbeTgML+yOBedCUkJiGWOSAAAABjvHojMRsk7lB4sLCy971OPM8w2en11VwqN8pyTNZg3kAAAACdDkG1yS2KTSt6VBXoL2SIJPYuhqGdFq/cFsdaa1Og2UKQ8thNTA68mzPvodVMqRwCtXFLr9WOfk1+wvJhIWMZ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABB/nKpRvhhtWKd3KGSLmsRYBQ2iBkXMpgdBVC+snN9HgAAAAAOgAAAAAIAACAAAADqrwPqn0IyqtqULl5Iqxj1Y0Kb0f7CFZ8+s5UWxRoPASAAAADpfhmozvqSTkn8qKRzajUjFhRHuKD46iKKQQpxgLt0pEAAAADWz18G4EtRFn1KyzwZ9MWZNxdv50bePdfXu9/rGG5ZB/HDEmTAbs17DGjZln+cnk6V1yd6LkoQi0+QVI2sYYhQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -306,7 +306,7 @@
           <DTS:Password
             DTS:Name="pwd"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAClIt3uXt5jmmCuOrPwlqvmY8qMJoiHdz34SD9TD1+2BAAAAAAOgAAAAAIAACAAAAD8Zt8fpDTdHQz1eRIsPeEIRaRuAomyXgF+7OYZTeo9RiAAAAApHZefQOqcIq7TIP21mRjUfoQfYend6i3kkS/OyA+j3EAAAADoMZWYhnMFZbzZ74MEziSKZQVy7Qi8nTQrBlqpEAyrai9nsw5AwyQsJiO77gWS16ao3as9Q8HJvdvBvEgFOSmk</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASXeetNVThkmE+/o273NYxAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADJVhVJNlYe5igfADtpmdxojKroLNmm1HZsTQysyHqzLgAAAAAOgAAAAAIAACAAAAA1K7azaMM73IYk3XBYRxBGQVhGalIVu6R9ouLUZbhgFCAAAAAKTGnGFI/7GW87HwJGmbG6wrOLi5nbtNu5C/+l3aWwEkAAAADkjfUmab1kp0WdQjZic48esUFZArhUja7PIHnrMLBbbn5aXTqDaEiP/HXNVTmuFVBGwHkQUHCCXXOKxbbR6Jqf</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -7450,7 +7450,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar Tablas de DISCOUNTS"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -7467,7 +7467,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar DIM_DISCOUNT"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -9127,7 +9127,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tabla CUSTOMER"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -9144,7 +9144,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar DIM_CUSTOMER"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -9881,12 +9881,12 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tabla EMPLOYEE"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;IF OBJECT_ID('dbo.DIM_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.DIM_EMPLOYEE;&#xA;IF OBJECT_ID('dbo.STG_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.STG_EMPLOYEE;&#xA;&#xA;-- La tabla intermedia ahora recibe el ID directamente como ENTERO&#xA;CREATE TABLE dbo.STG_EMPLOYEE (&#xA;    [employee_id] INT NULL,        &#xA;    [full_name] VARCHAR(255) NULL,&#xA;    [gender] VARCHAR(255) NULL,&#xA;    [category] VARCHAR(255) NULL,&#xA;    [employment_date] DATE NULL,      &#xA;    [birth_date] DATE NULL,            &#xA;    [education_level] VARCHAR(255) NULL&#xA;);&#xA;&#xA;CREATE TABLE dbo.DIM_EMPLOYEE (&#xA;    [employee_id] INT NOT NULL PRIMARY KEY, &#xA;    [full_name] VARCHAR(150) NOT NULL,&#xA;    [category] VARCHAR(100) NOT NULL,&#xA;    [employment_date] DATE NOT NULL,&#xA;    [birth_date] DATE NOT NULL,&#xA;    [education_level] VARCHAR(100) NOT NULL,&#xA;    [gender] VARCHAR(20) NOT NULL&#xA;);&#xA;&#xA;&#xA;BEGIN TRY&#xA;    SET IDENTITY_INSERT dbo.DIM_EMPLOYEE ON;&#xA;    INSERT INTO dbo.DIM_EMPLOYEE (employee_id, full_name, category, birth_date, employment_date, education_level, gender)&#xA;    VALUES (-1, 'Nombre desconocido', 'Categoria desconocida', '19000101', '19000101', 'Desconocido', 'NN');&#xA;    SET IDENTITY_INSERT dbo.DIM_EMPLOYEE OFF;&#xA;END TRY&#xA;BEGIN CATCH&#xA;    INSERT INTO dbo.DIM_EMPLOYEE (employee_id, full_name, category, birth_date, employment_date, education_level, gender)&#xA;    VALUES (-1, 'Nombre desconocido', 'Categoria desconocida', '19000101', '19000101', 'Desconocido', 'NN');&#xA;END CATCH;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;IF OBJECT_ID('dbo.DIM_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.DIM_EMPLOYEE;&#xA;IF OBJECT_ID('dbo.STG_EMPLOYEE', 'U') IS NOT NULL DROP TABLE dbo.STG_EMPLOYEE;&#xA;&#xA;-- La tabla intermedia&#xA;CREATE TABLE dbo.STG_EMPLOYEE (&#xA;    [employee_id] INT NULL,        &#xA;    [full_name] VARCHAR(255) NULL,&#xA;    [gender] VARCHAR(255) NULL,&#xA;    [category] VARCHAR(255) NULL,&#xA;    [employment_date] DATE NULL,      &#xA;    [birth_date] DATE NULL,            &#xA;    [education_level] VARCHAR(255) NULL&#xA;);&#xA;&#xA;-- La dimensión final con tu nuevo estándar id_employee&#xA;CREATE TABLE dbo.DIM_EMPLOYEE (&#xA;    [id_employee] INT NOT NULL PRIMARY KEY, &#xA;    [full_name] VARCHAR(150) NOT NULL,&#xA;    [category] VARCHAR(100) NOT NULL,&#xA;    [employment_date] DATE NOT NULL,&#xA;    [birth_date] DATE NOT NULL,&#xA;    [education_level] VARCHAR(100) NOT NULL,&#xA;    [gender] VARCHAR(20) NOT NULL&#xA;);&#xA;&#xA;-- TRUCO MAESTRO: Usamos EXEC para engañar al compilador y que no valide la columna hasta que la tabla se cree&#xA;EXEC('&#xA;    INSERT INTO dbo.DIM_EMPLOYEE (id_employee, full_name, category, birth_date, employment_date, education_level, gender)&#xA;    VALUES (-1, ''Nombre desconocido'', ''Categoria desconocida'', ''19000101'', ''19000101'', ''Desconocido'', ''NN'');&#xA;');" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
@@ -9898,12 +9898,12 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar DIM_EMPLOYEE"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- Clausura de seguridad por si la tabla maneja la propiedad IDENTITY&#xA;BEGIN TRY&#xA;    SET IDENTITY_INSERT dbo.DIM_EMPLOYEE ON;&#xA;&#xA;    INSERT INTO dbo.DIM_EMPLOYEE (&#xA;        employee_id, &#xA;        full_name, &#xA;        category, &#xA;        birth_date, &#xA;        employment_date, &#xA;        education_level, &#xA;        gender&#xA;    )&#xA;    SELECT DISTINCT&#xA;        STG.[employee_id],&#xA;        ISNULL(STG.[full_name], 'Nombre desconocido'),&#xA;        ISNULL(STG.[category], 'Categoria desconocida'),&#xA;        STG.[birth_date],&#xA;        STG.[employment_date],&#xA;        ISNULL(STG.[education_level], 'Desconocido'),&#xA;        ISNULL(STG.[gender], 'NN')&#xA;    FROM dbo.STG_EMPLOYEE AS STG&#xA;    -- 🌟 EL ESCUDO: Ignoramos las filas fantasma vacías que manda Excel&#xA;    WHERE STG.[employee_id] IS NOT NULL&#xA;      -- Evitamos colisionar con el comodín -1 o con datos ya cargados antes&#xA;      AND NOT EXISTS (&#xA;          SELECT 1 FROM dbo.DIM_EMPLOYEE AS DIM&#xA;          WHERE DIM.employee_id = STG.employee_id&#xA;      );&#xA;&#xA;    SET IDENTITY_INSERT dbo.DIM_EMPLOYEE OFF;&#xA;END TRY&#xA;BEGIN CATCH&#xA;    -- Si la tabla no tiene IDENTITY, corre por esta vía limpia de forma transparente&#xA;    INSERT INTO dbo.DIM_EMPLOYEE (&#xA;        employee_id, &#xA;        full_name, &#xA;        category, &#xA;        birth_date, &#xA;        employment_date, &#xA;        education_level, &#xA;        gender&#xA;    )&#xA;    SELECT DISTINCT&#xA;        STG.[employee_id],&#xA;        ISNULL(STG.[full_name], 'Nombre desconocido'),&#xA;        ISNULL(STG.[category], 'Categoria desconocida'),&#xA;        STG.[birth_date],&#xA;        STG.[employment_date],&#xA;        ISNULL(STG.[education_level], 'Desconocido'),&#xA;        ISNULL(STG.[gender], 'NN')&#xA;    FROM dbo.STG_EMPLOYEE AS STG&#xA;    WHERE STG.[employee_id] IS NOT NULL&#xA;      AND NOT EXISTS (&#xA;          SELECT 1 FROM dbo.DIM_EMPLOYEE AS DIM&#xA;          WHERE DIM.employee_id = STG.employee_id&#xA;      );&#xA;END CATCH;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;INSERT INTO dbo.DIM_EMPLOYEE (&#xA;    id_employee, -- Tu columna normalizada 🌟&#xA;    full_name, &#xA;    category, &#xA;    birth_date, &#xA;    employment_date, &#xA;    education_level, &#xA;    gender&#xA;)&#xA;SELECT DISTINCT&#xA;    STG.[employee_id],&#xA;    ISNULL(STG.[full_name], 'Nombre desconocido'),&#xA;    ISNULL(STG.[category], 'Categoria desconocida'),&#xA;    STG.[birth_date],&#xA;    STG.[employment_date],&#xA;    ISNULL(STG.[education_level], 'Desconocido'),&#xA;    ISNULL(STG.[gender], 'NN')&#xA;FROM dbo.STG_EMPLOYEE AS STG&#xA;-- El escudo definitivo anti-basura de Excel&#xA;WHERE STG.[employee_id] IS NOT NULL&#xA;  -- Evitamos colisionar con el -1 o duplicar datos si re-ejecutás el trencito&#xA;  AND NOT EXISTS (&#xA;      SELECT 1 FROM dbo.DIM_EMPLOYEE AS DIM&#xA;      WHERE DIM.id_employee = STG.employee_id&#xA;  );" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
@@ -10478,7 +10478,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tablas de REGIONS"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -10495,7 +10495,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar DIM_GEO"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -11419,7 +11419,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tabla Productos"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -11436,7 +11436,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y cargar DIM_PROD"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -11884,7 +11884,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Generar y Cargar DIM_TIME"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -11902,7 +11902,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tablas de TIME"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12402,7 +12402,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tabla STOCK"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -12419,7 +12419,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar FACT_STOCK"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13783,7 +13783,7 @@ FROM dbo.billing</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Inicializar tabla VENTAS"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
@@ -13800,12 +13800,12 @@ FROM dbo.billing</property>
           DTS:LocaleID="-1"
           DTS:ObjectName="Transformar y Cargar FACT_VENTAS"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-          DTS:ThreadHint="0">
+          DTS:ThreadHint="2">
           <DTS:Variables />
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
               SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
-              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- 1. Estructura para el Fallback temporal de Productos (SCD2)&#xA;WITH DimProd_SCD2 AS (&#xA;    SELECT *,&#xA;           -- Numeramos las versiones cronológicas de cada artículo&#xA;           ROW_NUMBER() OVER(PARTITION BY product_id ORDER BY price_from ASC) AS rn_primero&#xA;    FROM dbo.DIM_PROD&#xA;),&#xA;-- 2. Buscamos el precio histórico o aplicamos contingencias si el ID o la fecha son NULL&#xA;VentasConPrecio AS (&#xA;    SELECT &#xA;        S.*,&#xA;        -- Si el product_id viene NULL o no acopla por fecha, rescata la primera versión o clava -1&#xA;        COALESCE(P_exacto.[id_dim_prod], P_primero.[id_dim_prod], -1) AS [id_prod_SCD2],&#xA;        CASE WHEN P_exacto.[id_dim_prod] IS NOT NULL THEN P_exacto.[price] ELSE 0 END AS [precio_unitario],&#xA;        ISNULL(COALESCE(P_exacto.[capacity], P_primero.[capacity]), 0) AS [capacidad_producto]&#xA;    FROM dbo.STG_SALES AS S&#xA;    LEFT JOIN dbo.DIM_PROD AS P_exacto ON S.[product_id] = P_exacto.[product_id] &#xA;        AND S.[date] BETWEEN P_exacto.[price_from] AND ISNULL(P_exacto.[price_until], '99991231')&#xA;    LEFT JOIN DimProd_SCD2 AS P_primero ON S.[product_id] = P_primero.[product_id] AND P_primero.rn_primero = 1&#xA;),&#xA;-- 3. Sumamos los totales de cada factura para evaluar contra la escala de mínimos de descuentos&#xA;TotalesFactura AS (&#xA;    SELECT &#xA;        billing_id,&#xA;        [date],&#xA;        SUM(quantity * precio_unitario) AS bruto_factura&#xA;    FROM VentasConPrecio&#xA;    GROUP BY billing_id, [date]&#xA;),&#xA;-- 4. EL FILTRO MAESTRO: Evaluamos qué descuentos aplican (incluido el -1 con mínimo 0) y elegimos el mejor&#xA;DescuentoElegido AS (&#xA;    SELECT &#xA;        T.billing_id,&#xA;        ISNULL(D.id_discount, -1) AS id_discount,&#xA;        ISNULL(D.discount_percentage, 0) AS discount_percentage,&#xA;        -- Ordenamos por porcentaje de forma descendente. El mayor beneficio tendrá el rn = 1&#xA;        ROW_NUMBER() OVER(PARTITION BY T.billing_id ORDER BY ISNULL(D.discount_percentage, 0) DESC) AS rn&#xA;    FROM TotalesFactura AS T&#xA;    LEFT JOIN dbo.DIM_DISCOUNT AS D ON T.bruto_factura &gt;= D.min_total_sale&#xA;        AND ISNULL(T.[date], '19000101') BETWEEN D.[from] AND ISNULL(D.[until], '99991231')&#xA;)&#xA;-- 5. Insertamos la totalidad de los datos limpios en la tabla de hechos final (100% de la recaudación)&#xA;INSERT INTO dbo.FACT_VENTAS (&#xA;    billing_id, id_time, id_geo, id_customer, id_prod, id_employee,&#xA;    quantity, unit_price, gross_total_price, id_discount, discount,&#xA;    sale_total_price, lts_consumed, age_customer, age_employee,&#xA;    seniority_employee, age_group&#xA;)&#xA;SELECT &#xA;    V.[billing_id],&#xA;    &#xA;    -- DIRECTIVA PROFESOR: Si la fecha original es NULL, viaja directo a la fecha fantasma '1900-01-01'&#xA;    TI.[id_time] AS [id_time], &#xA;    &#xA;    -- Doble escudo: si no hay cliente o no cruza código postal, se le asigna el -1 de Geografía&#xA;    ISNULL(G.[id_geo], -1) AS [id_geo],&#xA;    &#xA;    -- Si vienen nulos del Staging, viajan a los comodines de dimensiones que creamos en los pasos anteriores&#xA;    ISNULL(C.[id_customer], -1) AS [id_customer],&#xA;    V.[id_prod_SCD2] AS [id_prod],&#xA;    ISNULL(E.[employee_id], -1) AS [id_employee], &#xA;    &#xA;    V.[quantity],&#xA;    V.[precio_unitario] AS [unit_price],&#xA;    (V.[quantity] * V.[precio_unitario]) AS [gross_total_price],&#xA;    &#xA;    -- Traemos el ID del descuento ganador único para esta factura&#xA;    DE.[id_discount] AS [id_discount],&#xA;    &#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (DE.[discount_percentage] / 100.0), 2) AS [discount],&#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (1 - (DE.[discount_percentage] / 100.0)), 2) AS [sale_total_price],&#xA;    ROUND((V.[quantity] * V.[capacidad_producto]) / 1000.0, 2) AS [lts_consumed],&#xA;    &#xA;    -- Cálculos defensivos de edad: si la fecha de venta o nacimiento son NULL, DATEDIFF da NULL e impacta en -1&#xA;    ISNULL(DATEDIFF(YEAR, C.[birth_date], V.[date]), -1) AS [age_customer],&#xA;    ISNULL(DATEDIFF(YEAR, E.[birth_date], V.[date]), -1) AS [age_employee],&#xA;    ISNULL(DATEDIFF(YEAR, E.[employment_date], V.[date]), -1) AS [seniority_employee],&#xA;    &#xA;    CASE &#xA;        WHEN C.[birth_date] IS NULL OR V.[date] IS NULL THEN 'No Especificado'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 13 AND 19 THEN 'Adolescentes'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 20 AND 30 THEN 'Joven adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 31 AND 40 THEN 'Adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 41 AND 50 THEN 'Adultos medios'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 51 AND 60 THEN 'Adulto maduro'&#xA;        ELSE 'Adulto mayor'&#xA;    END AS [age_group]&#xA;&#xA;FROM VentasConPrecio AS V&#xA;&#xA;-- UNIÓN INMUNE A NULOS: Convertimos el NULL temporalmente en '19000101' para que acople con tu nueva fila de DIM_TIME&#xA;INNER JOIN dbo.DIM_TIME AS TI ON ISNULL(V.[date], '19000101') = TI.[id_time]&#xA;&#xA;LEFT JOIN dbo.DIM_CUSTOMER AS C ON V.[customer_id] = C.[id_customer]&#xA;LEFT JOIN dbo.DIM_EMPLOYEE AS E ON V.[employee_id] = E.[employee_id]&#xA;LEFT JOIN dbo.DIM_GEO AS G ON TRIM(C.[zipcode]) = TRIM(G.[zipcode])&#xA;-- Acoplamos contra el descuento ganador único filtrado por la ventana analítica (rn = 1)&#xA;INNER JOIN DescuentoElegido AS DE ON V.[billing_id] = DE.[billing_id] AND DE.rn = 1;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+              SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- 1. Estructura para el Fallback temporal de Productos (SCD2)&#xA;WITH DimProd_SCD2 AS (&#xA;    SELECT *,&#xA;           -- Numeramos las versiones cronológicas de cada artículo&#xA;           ROW_NUMBER() OVER(PARTITION BY product_id ORDER BY price_from ASC) AS rn_primero&#xA;    FROM dbo.DIM_PROD&#xA;),&#xA;-- 2. Buscamos el precio histórico o aplicamos contingencias si el ID o la fecha son NULL&#xA;VentasConPrecio AS (&#xA;    SELECT &#xA;        S.*,&#xA;        -- Si el product_id viene NULL o no acopla por fecha, rescata la primera versión o clava -1&#xA;        COALESCE(P_exacto.[id_dim_prod], P_primero.[id_dim_prod], -1) AS [id_prod_SCD2],&#xA;        CASE WHEN P_exacto.[id_dim_prod] IS NOT NULL THEN P_exacto.[price] ELSE 0 END AS [precio_unitario],&#xA;        ISNULL(COALESCE(P_exacto.[capacity], P_primero.[capacity]), 0) AS [capacidad_producto]&#xA;    FROM dbo.STG_SALES AS S&#xA;    LEFT JOIN dbo.DIM_PROD AS P_exacto ON S.[product_id] = P_exacto.[product_id] &#xA;        AND S.[date] BETWEEN P_exacto.[price_from] AND ISNULL(P_exacto.[price_until], '99991231')&#xA;    LEFT JOIN DimProd_SCD2 AS P_primero ON S.[product_id] = P_primero.[product_id] AND P_primero.rn_primero = 1&#xA;),&#xA;-- 3. Sumamos los totales de cada factura para evaluar contra la escala de mínimos de descuentos&#xA;TotalesFactura AS (&#xA;    SELECT &#xA;        billing_id,&#xA;        [date],&#xA;        SUM(quantity * precio_unitario) AS bruto_factura&#xA;    FROM VentasConPrecio&#xA;    GROUP BY billing_id, [date]&#xA;),&#xA;-- 4. EL FILTRO MAESTRO: Evaluamos qué descuentos aplican (incluido el -1 con mínimo 0) y elegimos el mejor&#xA;DescuentoElegido AS (&#xA;    SELECT &#xA;        T.billing_id,&#xA;        ISNULL(D.id_discount, -1) AS id_discount,&#xA;        ISNULL(D.discount_percentage, 0) AS discount_percentage,&#xA;        -- Ordenamos por porcentaje de forma descendente. El mayor beneficio tendrá el rn = 1&#xA;        ROW_NUMBER() OVER(PARTITION BY T.billing_id ORDER BY ISNULL(D.discount_percentage, 0) DESC) AS rn&#xA;    FROM TotalesFactura AS T&#xA;    LEFT JOIN dbo.DIM_DISCOUNT AS D ON T.bruto_factura &gt;= D.min_total_sale&#xA;        AND ISNULL(T.[date], '19000101') BETWEEN D.[from] AND ISNULL(D.[until], '99991231')&#xA;)&#xA;-- 5. Insertamos la totalidad de los datos limpios en la tabla de hechos final (100% de la recaudación)&#xA;INSERT INTO dbo.FACT_VENTAS (&#xA;    billing_id, id_time, id_geo, id_customer, id_prod, id_employee,&#xA;    quantity, unit_price, gross_total_price, id_discount, discount,&#xA;    sale_total_price, lts_consumed, age_customer, age_employee,&#xA;    seniority_employee, age_group&#xA;)&#xA;SELECT &#xA;    V.[billing_id],&#xA;    &#xA;    -- DIRECTIVA PROFESOR: Si la fecha original es NULL, viaja directo a la fecha fantasma '1900-01-01'&#xA;    TI.[id_time] AS [id_time], &#xA;    &#xA;    -- Doble escudo: si no hay cliente o no cruza código postal, se le asigna el -1 de Geografía&#xA;    ISNULL(G.[id_geo], -1) AS [id_geo],&#xA;    &#xA;    -- Si vienen nulos del Staging, viajan a los comodines de dimensiones que creamos en los pasos anteriores&#xA;    ISNULL(C.[id_customer], -1) AS [id_customer],&#xA;    V.[id_prod_SCD2] AS [id_prod],&#xA;    &#xA;    -- 🌟 CAZADO: Cambiado E.[employee_id] por E.[id_employee] para acoplar con tu nueva DIM_EMPLOYEE&#xA;    ISNULL(E.[id_employee], -1) AS [id_employee], &#xA;    &#xA;    V.[quantity],&#xA;    V.[precio_unitario] AS [unit_price],&#xA;    (V.[quantity] * V.[precio_unitario]) AS [gross_total_price],&#xA;    &#xA;    -- Traemos el ID del descuento ganador único para esta factura&#xA;    DE.[id_discount] AS [id_discount],&#xA;    &#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (DE.[discount_percentage] / 100.0), 2) AS [discount],&#xA;    ROUND((V.[quantity] * V.[precio_unitario]) * (1 - (DE.[discount_percentage] / 100.0)), 2) AS [sale_total_price],&#xA;    ROUND((V.[quantity] * V.[capacidad_producto]) / 1000.0, 2) AS [lts_consumed],&#xA;    &#xA;    -- Cálculos defensivos de edad: si la fecha de venta o nacimiento son NULL, DATEDIFF da NULL e impacta en -1&#xA;    ISNULL(DATEDIFF(YEAR, C.[birth_date], V.[date]), -1) AS [age_customer],&#xA;    ISNULL(DATEDIFF(YEAR, E.[birth_date], V.[date]), -1) AS [age_employee],&#xA;    ISNULL(DATEDIFF(YEAR, E.[employment_date], V.[date]), -1) AS [seniority_employee],&#xA;    &#xA;    CASE &#xA;        WHEN C.[birth_date] IS NULL OR V.[date] IS NULL THEN 'No Especificado'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 13 AND 19 THEN 'Adolescentes'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 20 AND 30 THEN 'Joven adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 31 AND 40 THEN 'Adulto'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 41 AND 50 THEN 'Adultos medios'&#xA;        WHEN DATEDIFF(YEAR, C.[birth_date], V.[date]) BETWEEN 51 AND 60 THEN 'Adulto maduro'&#xA;        ELSE 'Adulto mayor'&#xA;    END AS [age_group]&#xA;&#xA;FROM VentasConPrecio AS V&#xA;&#xA;-- UNIÓN INMUNE A NULOS: Convertimos el NULL temporalmente en '19000101' para que acople con tu nueva fila de DIM_TIME&#xA;INNER JOIN dbo.DIM_TIME AS TI ON ISNULL(V.[date], '19000101') = TI.[id_time]&#xA;&#xA;LEFT JOIN dbo.DIM_CUSTOMER AS C ON V.[customer_id] = C.[id_customer]&#xA;LEFT JOIN dbo.DIM_EMPLOYEE AS E ON V.[employee_id] = E.[id_employee]&#xA;LEFT JOIN dbo.DIM_GEO AS G ON TRIM(C.[zipcode]) = TRIM(G.[zipcode])&#xA;-- Acoplamos contra el descuento ganador único filtrado por la ventana analítica (rn = 1)&#xA;INNER JOIN DescuentoElegido AS DE ON V.[billing_id] = DE.[billing_id] AND DE.rn = 1;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
         </DTS:Executable>
       </DTS:Executables>
@@ -13837,6 +13837,23 @@ FROM dbo.billing</property>
       </DTS:PrecedenceConstraints>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Crear Restricciones FK Finales"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{5925827F-0715-43D5-807A-D195E64735A1}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Crear Restricciones FK Finales"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="2">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{BCEA2651-49FA-4687-BA94-3B74675C7F11}"
+          SQLTask:SqlStatementSource="USE TDC_DataWarehouse;&#xA;GO&#xA;&#xA;-- ===================================================================&#xA;-- 1. LIMPIEZA PREVIA DE RESTRICCIONES VIEJAS&#xA;-- ===================================================================&#xA;IF EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = 'FK_FACT_VENTAS_DIM_PROD') &#xA;    ALTER TABLE dbo.FACT_VENTAS DROP CONSTRAINT FK_FACT_VENTAS_DIM_PROD;&#xA;&#xA;IF EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = 'FK_FACT_VENTAS_DIM_CUSTOMER') &#xA;    ALTER TABLE dbo.FACT_VENTAS DROP CONSTRAINT FK_FACT_VENTAS_DIM_CUSTOMER;&#xA;&#xA;IF EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = 'FK_FACT_VENTAS_DIM_EMPLOYEE') &#xA;    ALTER TABLE dbo.FACT_VENTAS DROP CONSTRAINT FK_FACT_VENTAS_DIM_EMPLOYEE;&#xA;&#xA;IF EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = 'FK_FACT_VENTAS_DIM_TIME') &#xA;    ALTER TABLE dbo.FACT_VENTAS DROP CONSTRAINT FK_FACT_VENTAS_DIM_TIME;&#xA;&#xA;IF EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = 'FK_FACT_VENTAS_DIM_GEO') &#xA;    ALTER TABLE dbo.FACT_VENTAS DROP CONSTRAINT FK_FACT_VENTAS_DIM_GEO;&#xA;&#xA;IF EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = 'FK_FACT_VENTAS_DIM_DISCOUNT') &#xA;    ALTER TABLE dbo.FACT_VENTAS DROP CONSTRAINT FK_FACT_VENTAS_DIM_DISCOUNT;&#xA;&#xA;IF EXISTS (SELECT 1 FROM sys.foreign_keys WHERE name = 'FK_FACT_STOCK_DIM_TIME') &#xA;    ALTER TABLE dbo.FACT_stock DROP CONSTRAINT FK_FACT_STOCK_DIM_TIME;&#xA;&#xA;&#xA;-- ===================================================================&#xA;-- 2. CREACIÓN DE RESTRICCIONES PARA FACT_VENTAS&#xA;-- ===================================================================&#xA;ALTER TABLE dbo.FACT_VENTAS ADD CONSTRAINT FK_FACT_VENTAS_DIM_PROD&#xA;FOREIGN KEY (id_prod) REFERENCES dbo.DIM_PROD (id_dim_prod);&#xA;&#xA;ALTER TABLE dbo.FACT_VENTAS ADD CONSTRAINT FK_FACT_VENTAS_DIM_CUSTOMER&#xA;FOREIGN KEY (id_customer) REFERENCES dbo.DIM_CUSTOMER (id_customer);&#xA;&#xA;ALTER TABLE dbo.FACT_VENTAS ADD CONSTRAINT FK_FACT_VENTAS_DIM_EMPLOYEE&#xA;FOREIGN KEY (id_employee) REFERENCES dbo.DIM_EMPLOYEE (id_employee);&#xA;&#xA;ALTER TABLE dbo.FACT_VENTAS ADD CONSTRAINT FK_FACT_VENTAS_DIM_TIME&#xA;FOREIGN KEY (id_time) REFERENCES dbo.DIM_TIME (id_time);&#xA;&#xA;ALTER TABLE dbo.FACT_VENTAS ADD CONSTRAINT FK_FACT_VENTAS_DIM_GEO&#xA;FOREIGN KEY (id_geo) REFERENCES dbo.DIM_GEO (id_geo);&#xA;&#xA;ALTER TABLE dbo.FACT_VENTAS ADD CONSTRAINT FK_FACT_VENTAS_DIM_DISCOUNT&#xA;FOREIGN KEY (id_discount) REFERENCES dbo.DIM_DISCOUNT (id_discount);&#xA;&#xA;&#xA;-- ===================================================================&#xA;-- 3. CREACIÓN DE RESTRICCIONES PARA FACT_STOCK&#xA;-- ===================================================================&#xA;&#xA;-- 🌟 Sincronizamos el stock con la dimensión de Tiempo (Crucial para los filtros por Año/Mes)&#xA;ALTER TABLE dbo.FACT_stock&#xA;ADD CONSTRAINT FK_FACT_STOCK_DIM_TIME&#xA;FOREIGN KEY (id_time) REFERENCES dbo.DIM_TIME (id_time);&#xA;&#xA;-- 💡 NOTA PARA LA DEFENSA: La relación física FACT_stock -&gt; DIM_PROD por 'product_id' &#xA;-- no se crea mediante CONSTRAINT debido a que 'product_id' no es la Clave Primaria en la dimensión.&#xA;-- Se resolverá de forma lógica y directa en el modelo de Power BI." xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Generar y Cargar DIM_TIME 2"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
@@ -13846,7 +13863,7 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Generar y Cargar DIM_TIME 2"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -13864,7 +13881,7 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Inicializar tabla EMPLOYEE 2"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -13883,7 +13900,7 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Inicializar tablas de TIME 2"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -13901,7 +13918,7 @@ FROM dbo.billing</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Transformar y Cargar DIM_EMPLOYEE 2"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2025; © 2025 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -13999,6 +14016,14 @@ FROM dbo.billing</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción 8"
       DTS:To="Package\Contenedor FACT_STOCK" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 9]"
+      DTS:CreationName=""
+      DTS:DTSID="{3503F6FC-A9D6-4C02-9DAA-21344D42A802}"
+      DTS:From="Package\Contenedor FACT_VENTAS"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 9"
+      DTS:To="Package\Crear Restricciones FK Finales" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
@@ -14044,73 +14069,6 @@ FROM dbo.billing</property>
           Size="235.2,41.6"
           Id="Package\Cargar STG_HOLIDAY desde CSV"
           TopLeft="1275.65510201475,437.210083953226" />
-        <NodeLayout
-          Size="246.4,41.6"
-          Id="Package\Contenedor DIM_CUSTOMER\Cargar STG_CUSTOMER desde XML"
-          TopLeft="12.0255100072289,79.7878150881062" />
-        <NodeLayout
-          Size="206.4,41.6"
-          Id="Package\Contenedor DIM_CUSTOMER\Inicializar tabla CUSTOMER"
-          TopLeft="25.96428588344,5.5" />
-        <NodeLayout
-          Size="261.6,41.6"
-          Id="Package\Contenedor DIM_CUSTOMER\Transformar y Cargar DIM_CUSTOMER"
-          TopLeft="5.5,164.588235181843" />
-        <EdgeLayout
-          Id="Package\Contenedor DIM_CUSTOMER.PrecedenceConstraints[Restricción 10]"
-          TopLeft="132.194897945335,47.1000000000003">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32.6878150881064"
-              Start="0,0"
-              End="0,25.1878150881064">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.1878150881064" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Contenedor DIM_CUSTOMER.PrecedenceConstraints[Restricción 11]"
-          TopLeft="135.762755003615,121.387815088106">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43.2004200937367"
-              Start="0,0"
-              End="0,35.7004200937367">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35.7004200937367" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43.2"
-          IsExpanded="False"
-          PanelSize="272,260.8"
-          Size="239.2,43.2"
-          Id="Package\Contenedor DIM_CUSTOMER"
-          TopLeft="460.250442573804,273.993795188269" />
         <NodeLayout
           Size="256,41.6"
           Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL"
@@ -14178,6 +14136,136 @@ FROM dbo.billing</property>
           Size="257.6,43.2"
           Id="Package\Contenedor de DIM_DISCOUNTS"
           TopLeft="438.107585447673,39.1470587940365" />
+        <NodeLayout
+          Size="246.4,41.6"
+          Id="Package\Contenedor DIM_CUSTOMER\Cargar STG_CUSTOMER desde XML"
+          TopLeft="12.0255100072289,79.7878150881062" />
+        <NodeLayout
+          Size="206.4,41.6"
+          Id="Package\Contenedor DIM_CUSTOMER\Inicializar tabla CUSTOMER"
+          TopLeft="25.96428588344,5.5" />
+        <NodeLayout
+          Size="261.6,41.6"
+          Id="Package\Contenedor DIM_CUSTOMER\Transformar y Cargar DIM_CUSTOMER"
+          TopLeft="5.5,164.588235181843" />
+        <EdgeLayout
+          Id="Package\Contenedor DIM_CUSTOMER.PrecedenceConstraints[Restricción 10]"
+          TopLeft="132.194897945335,47.1000000000003">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32.6878150881064"
+              Start="0,0"
+              End="0,25.1878150881064">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.1878150881064" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor DIM_CUSTOMER.PrecedenceConstraints[Restricción 11]"
+          TopLeft="135.762755003615,121.387815088106">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.2004200937367"
+              Start="0,0"
+              End="0,35.7004200937367">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.7004200937367" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43.2"
+          IsExpanded="False"
+          PanelSize="272,260.8"
+          Size="272,43.2"
+          Id="Package\Contenedor DIM_CUSTOMER"
+          TopLeft="442.393299678648,273.993795188269" />
+        <NodeLayout
+          Size="236,41.6"
+          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls"
+          TopLeft="4.23741232500561,73.7058822979776" />
+        <NodeLayout
+          Size="203.2,41.6"
+          Id="Package\Contenedor DIM_EMPLOYEE\Inicializar tabla EMPLOYEE"
+          TopLeft="26.1183647642456,5.5" />
+        <NodeLayout
+          Size="259.2,41.6"
+          Id="Package\Contenedor DIM_EMPLOYEE\Transformar y Cargar DIM_EMPLOYEE"
+          TopLeft="0.189793235065508,154.148039880675" />
+        <EdgeLayout
+          Id="Package\Contenedor DIM_EMPLOYEE.PrecedenceConstraints[Restricción 14]"
+          TopLeft="124.977888544626,47.1000000000006">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26.6058822979771"
+              Start="0,0"
+              End="0,19.1058822979771">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.1058822979771" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor DIM_EMPLOYEE.PrecedenceConstraints[Restricción 15]"
+          TopLeft="126.013602780046,115.305882297978">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.8421575826972"
+              Start="0,0"
+              End="0,31.3421575826972">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.3421575826972" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43.2"
+          IsExpanded="False"
+          PanelSize="264,250.4"
+          Size="264,43.2"
+          Id="Package\Contenedor DIM_EMPLOYEE"
+          TopLeft="434.536156740918,437.817324482732" />
         <NodeLayout
           Size="212,41.6"
           Id="Package\Contenedor DIM_GEO\Cargar STG_GEO desde TXT"
@@ -14292,9 +14380,7 @@ FROM dbo.billing</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14328,9 +14414,7 @@ FROM dbo.billing</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14364,9 +14448,7 @@ FROM dbo.billing</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -14400,9 +14482,7 @@ FROM dbo.billing</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <ContainerLayout
@@ -14411,236 +14491,7 @@ FROM dbo.billing</property>
           PanelSize="488,229.6"
           Size="212.8,43.2"
           Id="Package\Contenedor DIM_PROD"
-          TopLeft="462.393299785085,116.205882343556" />
-        <NodeLayout
-          Size="236,41.6"
-          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls"
-          TopLeft="4.23741232500561,73.7058822979776" />
-        <NodeLayout
-          Size="203.2,41.6"
-          Id="Package\Contenedor DIM_EMPLOYEE\Inicializar tabla EMPLOYEE"
-          TopLeft="26.1183647642456,5.5" />
-        <NodeLayout
-          Size="259.2,41.6"
-          Id="Package\Contenedor DIM_EMPLOYEE\Transformar y Cargar DIM_EMPLOYEE"
-          TopLeft="0.189793235065508,154.148039880675" />
-        <EdgeLayout
-          Id="Package\Contenedor DIM_EMPLOYEE.PrecedenceConstraints[Restricción 14]"
-          TopLeft="124.977888544626,47.1000000000006">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26.6058822979771"
-              Start="0,0"
-              End="0,19.1058822979771">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.1058822979771" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Contenedor DIM_EMPLOYEE.PrecedenceConstraints[Restricción 15]"
-          TopLeft="126.013602780046,115.305882297978">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38.8421575826972"
-              Start="0,0"
-              End="0,31.3421575826972">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.3421575826972" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43.2"
-          IsExpanded="False"
-          PanelSize="264,250.4"
-          Size="236.8,43.2"
-          Id="Package\Contenedor DIM_EMPLOYEE"
-          TopLeft="460.964728225749,438.582030364415" />
-        <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\Contenedor FACT_STOCK\Cargar STG Stock"
-          TopLeft="59.2142869002968,84.5689074433297" />
-        <NodeLayout
-          Size="184.8,41.6"
-          Id="Package\Contenedor FACT_STOCK\Inicializar tabla STOCK"
-          TopLeft="48.6020420436089,9.77899151620318" />
-        <NodeLayout
-          Size="245.6,41.6"
-          Id="Package\Contenedor FACT_STOCK\Transformar y Cargar FACT_STOCK"
-          TopLeft="23.1778619712653,158.921848479996" />
-        <EdgeLayout
-          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción]"
-          TopLeft="140.308164471953,51.3789915162032">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33.1899159271265"
-              Start="0,0"
-              End="0,25.6899159271265">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.6899159271265" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción 1]"
-          TopLeft="142.796074435781,126.16890744333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32.7529410366663"
-              Start="0,0"
-              End="0,25.2529410366663">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.2529410366663" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43.2"
-          IsExpanded="False"
-          PanelSize="300,260"
-          Size="300,43.2"
-          Id="Package\Contenedor FACT_STOCK"
-          TopLeft="425.326530644719,517.077030761606" />
-        <NodeLayout
-          Size="231.2,41.6"
-          Id="Package\Contenedor FACT_VENTAS\Cargar Ventas Actuales (MySQL)"
-          TopLeft="21.5714286056408,148.692436717445" />
-        <NodeLayout
-          Size="257.6,41.6"
-          Id="Package\Contenedor FACT_VENTAS\Cargar Ventas Históricas (SQL Server)"
-          TopLeft="5.49999999999989,83.4277308300643" />
-        <NodeLayout
-          Size="190.4,41.6"
-          Id="Package\Contenedor FACT_VENTAS\Inicializar tabla VENTAS"
-          TopLeft="38.069589853611,12.7911759747379" />
-        <NodeLayout
-          Size="251.2,41.6"
-          Id="Package\Contenedor FACT_VENTAS\Transformar y Cargar FACT_VENTAS"
-          TopLeft="14.6875615964721,217.230718705197" />
-        <EdgeLayout
-          Id="Package\Contenedor FACT_VENTAS.PrecedenceConstraints[Restricción]"
-          TopLeft="138.729495101056,190.292436717445">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26.938281987752"
-              Start="0,0"
-              End="0,19.438281987752">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.438281987752" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Contenedor FACT_VENTAS.PrecedenceConstraints[Restricción 14]"
-          TopLeft="133.784794926805,54.3911759747378">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29.0365548553265"
-              Start="0,0"
-              End="0,21.5365548553265">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.5365548553265" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Contenedor FACT_VENTAS.PrecedenceConstraints[Restricción 15]"
-          TopLeft="135.73571430282,125.027730830064">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,23.6647058873804"
-              Start="0,0"
-              End="0,16.1647058873804">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.1647058873804" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <ContainerLayout
-          HeaderHeight="43.2"
-          IsExpanded="False"
-          PanelSize="288.8,313.6"
-          Size="288.8,43.2"
-          Id="Package\Contenedor FACT_VENTAS"
-          TopLeft="431.125893521291,603.23039205805" />
+          TopLeft="460.964728353472,113.401960777386" />
         <NodeLayout
           Size="233.6,41.6"
           Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS"
@@ -14709,6 +14560,158 @@ FROM dbo.billing</property>
           Id="Package\Contenedor DIM_TIME"
           TopLeft="469.536156751562,353.876148112018" />
         <NodeLayout
+          Size="160.8,41.6"
+          Id="Package\Contenedor FACT_STOCK\Cargar STG Stock"
+          TopLeft="59.2142869002968,84.5689074433297" />
+        <NodeLayout
+          Size="184.8,41.6"
+          Id="Package\Contenedor FACT_STOCK\Inicializar tabla STOCK"
+          TopLeft="48.6020420436089,9.77899151620318" />
+        <NodeLayout
+          Size="245.6,41.6"
+          Id="Package\Contenedor FACT_STOCK\Transformar y Cargar FACT_STOCK"
+          TopLeft="23.1778619712653,158.921848479996" />
+        <EdgeLayout
+          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción]"
+          TopLeft="140.308164471953,51.3789915162032">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.1899159271265"
+              Start="0,0"
+              End="0,25.6899159271265">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.6899159271265" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor FACT_STOCK.PrecedenceConstraints[Restricción 1]"
+          TopLeft="142.796074435781,126.16890744333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32.7529410366663"
+              Start="0,0"
+              End="0,25.2529410366663">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.2529410366663" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43.2"
+          IsExpanded="False"
+          PanelSize="300,260"
+          Size="223.2,43.2"
+          Id="Package\Contenedor FACT_STOCK"
+          TopLeft="451.040816413744,511.214285668706" />
+        <NodeLayout
+          Size="231.2,41.6"
+          Id="Package\Contenedor FACT_VENTAS\Cargar Ventas Actuales (MySQL)"
+          TopLeft="21.5714286056408,148.692436717445" />
+        <NodeLayout
+          Size="257.6,41.6"
+          Id="Package\Contenedor FACT_VENTAS\Cargar Ventas Históricas (SQL Server)"
+          TopLeft="5.49999999999989,83.4277308300643" />
+        <NodeLayout
+          Size="190.4,41.6"
+          Id="Package\Contenedor FACT_VENTAS\Inicializar tabla VENTAS"
+          TopLeft="38.069589853611,12.7911759747379" />
+        <NodeLayout
+          Size="251.2,41.6"
+          Id="Package\Contenedor FACT_VENTAS\Transformar y Cargar FACT_VENTAS"
+          TopLeft="14.6875615964721,217.230718705197" />
+        <EdgeLayout
+          Id="Package\Contenedor FACT_VENTAS.PrecedenceConstraints[Restricción]"
+          TopLeft="138.729495101056,190.292436717445">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26.938281987752"
+              Start="0,0"
+              End="0,19.438281987752">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.438281987752" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor FACT_VENTAS.PrecedenceConstraints[Restricción 14]"
+          TopLeft="133.784794926805,54.3911759747378">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.0365548553265"
+              Start="0,0"
+              End="0,21.5365548553265">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5365548553265" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor FACT_VENTAS.PrecedenceConstraints[Restricción 15]"
+          TopLeft="135.73571430282,125.027730830064">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,23.6647058873804"
+              Start="0,0"
+              End="0,16.1647058873804">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.1647058873804" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43.2"
+          IsExpanded="False"
+          PanelSize="288.8,313.6"
+          Size="228.8,43.2"
+          Id="Package\Contenedor FACT_VENTAS"
+          TopLeft="445.411607837416,589.218627359541" />
+        <NodeLayout
           Size="221.6,41.6"
           Id="Package\Generar y Cargar DIM_TIME 2"
           TopLeft="1284.6793272885,507.698319180649" />
@@ -14726,7 +14729,7 @@ FROM dbo.billing</property>
           TopLeft="1336.1462608251,265.408963357614" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="577.007585474282,242.840854050676">
+          TopLeft="576.279014026704,242.840854050676">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -14748,7 +14751,7 @@ FROM dbo.billing</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 1]"
-          TopLeft="577.093299662683,317.193795188269">
+          TopLeft="576.364728215105,317.193795188269">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -14814,18 +14817,18 @@ FROM dbo.billing</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 2]"
-          TopLeft="567.850442616379,82.3470587940365">
+          TopLeft="567.136156900572,82.3470587940365">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,33.8588235495199"
+              EndConnector="0,31.0549019833498"
               Start="0,0"
-              End="0,26.3588235495199">
+              End="0,23.5549019833498">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.3588235495199" />
+                    End="0,23.5549019833498" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14836,18 +14839,18 @@ FROM dbo.billing</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
-          TopLeft="575.426212083005,560.277030761606">
+          TopLeft="561.22621212558,554.414285668706">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42.9533612964436"
+              EndConnector="0,34.8043416908346"
               Start="0,0"
-              End="0,35.4533612964436">
+              End="0,27.3043416908346">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,35.4533612964436" />
+                    End="0,27.3043416908346" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14902,18 +14905,18 @@ FROM dbo.billing</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 6]"
-          TopLeft="571.479014079922,159.405882343556">
+          TopLeft="570.764728364116,156.601960777386">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,40.2349717071196"
+              EndConnector="0,43.0388932732897"
               Start="0,0"
-              End="0,32.7349717071196">
+              End="0,35.5388932732897">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.7349717071196" />
+                    End="0,35.5388932732897" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14924,18 +14927,18 @@ FROM dbo.billing</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 7]"
-          TopLeft="576.850442488656,397.076148112018">
+          TopLeft="570.43615674624,397.076148112018">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41.505882252397"
+              EndConnector="0,40.7411763707144"
               Start="0,0"
-              End="0,34.005882252397">
+              End="0,33.2411763707144">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.005882252397" />
+                    End="0,33.2411763707144" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14946,18 +14949,44 @@ FROM dbo.billing</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 8]"
-          TopLeft="577.345629435234,481.782030364415">
+          TopLeft="564.588486577331,481.017324482732">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,35.295000397191"
+              EndConnector="0,30.1969611859738"
               Start="0,0"
-              End="0,27.795000397191">
+              End="0,22.6969611859738">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.795000397191" />
+                    End="0,22.6969611859738" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="219.2,41.6"
+          Id="Package\Crear Restricciones FK Finales"
+          TopLeft="449.29284207833,676.405882377742" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 9]"
+          TopLeft="559.352224957873,632.418627359541">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.9872550182013"
+              Start="0,0"
+              End="0,36.4872550182013">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.4872550182013" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -15926,6 +15955,95 @@ FROM dbo.billing</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
+    design-time-name="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="172,41.6"
+          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Origen de ADO NET"
+          TopLeft="365.499994635582,25.4999997019768" />
+        <NodeLayout
+          Size="174.4,41.6"
+          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Conversión de datos"
+          TopLeft="364.999994561076,109.999998360872" />
+        <NodeLayout
+          Size="168,41.6"
+          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Destino de OLE DB"
+          TopLeft="367.499995052815,212.499997362494" />
+        <EdgeLayout
+          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL.Paths[Salida de origen de ADO NET]"
+          TopLeft="451.849994598329,67.0999997019768">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42.8999986588955"
+              Start="0,0"
+              End="0,35.3999986588955">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35.3999986588955" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL.Paths[Salida de conversión de datos]"
+          TopLeft="451.849994806945,151.599998360872">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60.8999990016221"
+              Start="0,0"
+              End="0,53.3999990016221">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,53.3999990016221" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Origen de ADO NET">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Destino de OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Contenedor DIM_CUSTOMER\Cargar STG_CUSTOMER desde XML">
     <LayoutInfo>
       <GraphLayout
@@ -16136,36 +16254,36 @@ FROM dbo.billing</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL">
+    design-time-name="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="172,41.6"
-          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Origen de ADO NET"
-          TopLeft="365.499994635582,25.4999997019768" />
+          Size="152,41.6"
+          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Origen de Excel"
+          TopLeft="401.49999409914,10.4999999254942" />
         <NodeLayout
           Size="174.4,41.6"
-          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Conversión de datos"
-          TopLeft="364.999994561076,109.999998360872" />
+          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Conversión de datos"
+          TopLeft="391.499994695187,98.4999990612269" />
         <NodeLayout
           Size="168,41.6"
-          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Destino de OLE DB"
-          TopLeft="367.499995052815,212.499997362494" />
+          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Destino de OLE DB"
+          TopLeft="391.499995142221,180.499998286366" />
         <EdgeLayout
-          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL.Paths[Salida de origen de ADO NET]"
-          TopLeft="451.849994598329,67.0999997019768">
+          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls.Paths[Salida de origen de Excel]"
+          TopLeft="478.099994397164,52.0999999254942">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42.8999986588955"
+              EndConnector="0,46.3999991357327"
               Start="0,0"
-              End="0,35.3999986588955">
+              End="0,38.8999991357327">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,35.3999986588955" />
+                    End="0,38.8999991357327" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16177,19 +16295,19 @@ FROM dbo.billing</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL.Paths[Salida de conversión de datos]"
-          TopLeft="451.849994806945,151.599998360872">
+          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls.Paths[Salida de conversión de datos]"
+          TopLeft="477.099994918704,140.099999061227">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.8999990016221"
+              EndConnector="0,40.3999992251395"
               Start="0,0"
-              End="0,53.3999990016221">
+              End="0,32.8999992251395">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.3999990016221" />
+                    End="0,32.8999992251395" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16204,15 +16322,20 @@ FROM dbo.billing</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Origen de ADO NET">
+    design-time-name="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Origen de Excel">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Contenedor de DIM_DISCOUNTS\Cargar STG_DISCOUNT desde MySQL\Destino de OLE DB">
+    design-time-name="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Destino de OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -16476,36 +16599,36 @@ FROM dbo.billing</property>
     </Properties>
   </PipelineComponentMetadata>
   <TaskHost
-    design-time-name="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls">
+    design-time-name="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="168,41.6"
+          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Destino de OLE DB"
+          TopLeft="279.28571488024,180.470588077105" />
+        <NodeLayout
           Size="152,41.6"
-          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Origen de Excel"
-          TopLeft="401.49999409914,10.4999999254942" />
+          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Origen de Excel"
+          TopLeft="291.214286322496,9.32352940841323" />
         <NodeLayout
           Size="174.4,41.6"
-          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Conversión de datos"
-          TopLeft="391.499994695187,98.4999990612269" />
-        <NodeLayout
-          Size="168,41.6"
-          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Destino de OLE DB"
-          TopLeft="391.499995142221,180.499998286366" />
+          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Conversión de datos"
+          TopLeft="274.071429079285,90.5588234811506" />
         <EdgeLayout
-          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls.Paths[Salida de origen de Excel]"
-          TopLeft="478.099994397164,52.0999999254942">
+          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS.Paths[Salida de origen de Excel]"
+          TopLeft="364.242857700891,50.9235294084132">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,46.3999991357327"
+              EndConnector="0,39.6352940727373"
               Start="0,0"
-              End="0,38.8999991357327">
+              End="0,32.1352940727373">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,38.8999991357327" />
+                    End="0,32.1352940727373" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16517,19 +16640,19 @@ FROM dbo.billing</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls.Paths[Salida de conversión de datos]"
-          TopLeft="477.099994918704,140.099999061227">
+          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS.Paths[Salida de conversión de datos]"
+          TopLeft="362.278571979762,132.158823481151">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,40.3999992251395"
+              EndConnector="0,48.3117645959541"
               Start="0,0"
-              End="0,32.8999992251395">
+              End="0,40.8117645959541">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,32.8999992251395" />
+                    End="0,40.8117645959541" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16544,7 +16667,7 @@ FROM dbo.billing</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Origen de Excel">
+    design-time-name="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Destino de OLE DB">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -16557,7 +16680,7 @@ FROM dbo.billing</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Contenedor DIM_EMPLOYEE\Cargar STG_EMPLOYEE desde xls\Destino de OLE DB">
+    design-time-name="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Origen de Excel">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -16786,99 +16909,5 @@ FROM dbo.billing</property>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <TaskHost
-    design-time-name="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="168,41.6"
-          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Destino de OLE DB"
-          TopLeft="279.28571488024,180.470588077105" />
-        <NodeLayout
-          Size="152,41.6"
-          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Origen de Excel"
-          TopLeft="291.214286322496,9.32352940841323" />
-        <NodeLayout
-          Size="174.4,41.6"
-          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Conversión de datos"
-          TopLeft="274.071429079285,90.5588234811506" />
-        <EdgeLayout
-          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS.Paths[Salida de origen de Excel]"
-          TopLeft="364.242857700891,50.9235294084132">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,39.6352940727373"
-              Start="0,0"
-              End="0,32.1352940727373">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,32.1352940727373" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS.Paths[Salida de conversión de datos]"
-          TopLeft="362.278571979762,132.158823481151">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,48.3117645959541"
-              Start="0,0"
-              End="0,40.8117645959541">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.8117645959541" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Destino de OLE DB">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Contenedor DIM_TIME\Cargar STG_HOLIDAY desde XLS\Origen de Excel">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
