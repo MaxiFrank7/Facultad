@@ -888,3 +888,329 @@
 2026-09-06 11:54:51,096 [INFO] Registros con géneros: 150/150
 2026-09-06 11:54:51,096 [INFO] Cantidad final de libros: 150 (objetivo: 150)
 2026-09-06 11:54:51,097 [INFO] Archivo final generado en: C:\Github\TUIA_Segundo\2Cuatrimestre\4C_PNL\TP1\libros.csv
+2026-09-06 12:54:20,288 [INFO] Inicio del scraping. Objetivo: los primeros 150 libros de la categoría 'Clásico'
+2026-09-06 12:54:24,196 [INFO] Recorriendo página de categoría 1: https://ww3.lectulandia.co/genero/clasico/
+2026-09-06 12:54:24,973 [INFO] Total de fichas únicas acumuladas: 24
+2026-09-06 12:54:27,501 [INFO] Recorriendo página de categoría 2: https://ww3.lectulandia.co/genero/clasico/page/2/
+2026-09-06 12:54:28,028 [INFO] Total de fichas únicas acumuladas: 48
+2026-09-06 12:54:29,546 [INFO] Recorriendo página de categoría 3: https://ww3.lectulandia.co/genero/clasico/page/3/
+2026-09-06 12:54:30,060 [INFO] Total de fichas únicas acumuladas: 72
+2026-09-06 12:54:31,835 [INFO] Recorriendo página de categoría 4: https://ww3.lectulandia.co/genero/clasico/page/4/
+2026-09-06 12:54:32,369 [INFO] Total de fichas únicas acumuladas: 96
+2026-09-06 12:54:34,720 [INFO] Recorriendo página de categoría 5: https://ww3.lectulandia.co/genero/clasico/page/5/
+2026-09-06 12:54:35,247 [INFO] Total de fichas únicas acumuladas: 120
+2026-09-06 12:54:38,473 [INFO] Recorriendo página de categoría 6: https://ww3.lectulandia.co/genero/clasico/page/6/
+2026-09-06 12:54:38,984 [INFO] Total de fichas únicas acumuladas: 144
+2026-09-06 12:54:41,716 [INFO] Recorriendo página de categoría 7: https://ww3.lectulandia.co/genero/clasico/page/7/
+2026-09-06 12:54:42,059 [INFO] Total de fichas únicas acumuladas: 168
+2026-09-06 12:54:42,059 [INFO] URLs de fichas recolectadas: 150
+2026-09-06 12:54:42,059 [INFO] (1/150) Procesando ficha: https://ww3.lectulandia.co/book/el-molino-del-floss/
+2026-09-06 12:54:42,418 [INFO] Guardado: El molino del Floss — George Eliot
+2026-09-06 12:54:45,162 [INFO] (2/150) Procesando ficha: https://ww3.lectulandia.co/book/middlemarch/
+2026-09-06 12:54:45,688 [INFO] Guardado: Middlemarch — George Eliot
+2026-09-06 12:54:47,727 [INFO] (3/150) Procesando ficha: https://ww3.lectulandia.co/book/otelo-el-moro-de-venecia/
+2026-09-06 12:54:48,244 [INFO] Guardado: Otelo, el moro de Venecia — William Shakespeare
+2026-09-06 12:54:50,774 [INFO] (4/150) Procesando ficha: https://ww3.lectulandia.co/book/hamlet/
+2026-09-06 12:54:51,301 [INFO] Guardado: Hamlet — William Shakespeare
+2026-09-06 12:54:54,205 [INFO] (5/150) Procesando ficha: https://ww3.lectulandia.co/book/la-sombra-del-cipres-es-alargada/
+2026-09-06 12:54:54,730 [INFO] Guardado: La sombra del ciprés es alargada — Miguel Delibes
+2026-09-06 12:54:56,829 [INFO] (6/150) Procesando ficha: https://ww3.lectulandia.co/book/la-respuesta-es-no/
+2026-09-06 12:54:57,186 [INFO] Guardado: La respuesta es no — Wilkie Collins
+2026-09-06 12:55:00,151 [INFO] (7/150) Procesando ficha: https://ww3.lectulandia.co/book/la-vida-es-sueno/
+2026-09-06 12:55:00,667 [INFO] Guardado: La vida es sueño — Pedro Calderón de la Barca
+2026-09-06 12:55:03,621 [INFO] (8/150) Procesando ficha: https://ww3.lectulandia.co/book/el-grillo-del-hogar-ilustrado/
+2026-09-06 12:55:03,994 [INFO] Guardado: El grillo del hogar (Ilustrado) — Charles Dickens
+2026-09-06 12:55:06,155 [INFO] (9/150) Procesando ficha: https://ww3.lectulandia.co/book/el-jardin-de-los-cerezos/
+2026-09-06 12:55:06,668 [INFO] Guardado: El jardín de los cerezos — Antón Chéjov
+2026-09-06 12:55:08,663 [INFO] (10/150) Procesando ficha: https://ww3.lectulandia.co/book/macbeth/
+2026-09-06 12:55:09,183 [INFO] Guardado: Macbeth — William Shakespeare
+2026-09-06 12:55:11,731 [INFO] (11/150) Procesando ficha: https://ww3.lectulandia.co/book/a-este-lado-del-paraiso/
+2026-09-06 12:55:12,086 [INFO] Guardado: A este lado del paraíso — Francis Scott Fitzgerald
+2026-09-06 12:55:15,238 [INFO] (12/150) Procesando ficha: https://ww3.lectulandia.co/book/la-segunda-casaca/
+2026-09-06 12:55:15,778 [INFO] Guardado: La segunda casaca — Benito Pérez Galdós
+2026-09-06 12:55:17,398 [INFO] (13/150) Procesando ficha: https://ww3.lectulandia.co/book/casa-de-munecas/
+2026-09-06 12:55:17,906 [INFO] Guardado: Casa de muñecas — Henrik Ibsen
+2026-09-06 12:55:20,305 [INFO] (14/150) Procesando ficha: https://ww3.lectulandia.co/book/juan-martin-el-empecinado/
+2026-09-06 12:55:20,803 [INFO] Guardado: Juan Martín el Empecinado — Benito Pérez Galdós
+2026-09-06 12:55:22,477 [INFO] (15/150) Procesando ficha: https://ww3.lectulandia.co/book/el-contrato-social/
+2026-09-06 12:55:23,005 [INFO] Guardado: El contrato social — Jean-Jacques Rousseau
+2026-09-06 12:55:26,063 [INFO] (16/150) Procesando ficha: https://ww3.lectulandia.co/book/el-grande-de-oriente/
+2026-09-06 12:55:26,568 [INFO] Guardado: El Grande Oriente — Benito Pérez Galdós
+2026-09-06 12:55:29,925 [INFO] (17/150) Procesando ficha: https://ww3.lectulandia.co/book/7-de-julio/
+2026-09-06 12:55:30,298 [INFO] Guardado: 7 de julio — Benito Pérez Galdós
+2026-09-06 12:55:33,675 [INFO] (18/150) Procesando ficha: https://ww3.lectulandia.co/book/los-cien-mil-hijos-de-san-luis/
+2026-09-06 12:55:34,023 [INFO] Guardado: Los cien mil hijos de san Luis — Benito Pérez Galdós
+2026-09-06 12:55:35,560 [INFO] (19/150) Procesando ficha: https://ww3.lectulandia.co/book/preparacion-del-actor/
+2026-09-06 12:55:35,910 [INFO] Guardado: Preparación del actor — Konstantin Stanislavski
+2026-09-06 12:55:37,777 [INFO] (20/150) Procesando ficha: https://ww3.lectulandia.co/book/el-terror-de-1824/
+2026-09-06 12:55:38,123 [INFO] Guardado: El terror de 1824 — Benito Pérez Galdós
+2026-09-06 12:55:39,804 [INFO] (21/150) Procesando ficha: https://ww3.lectulandia.co/book/los-apostolicos/
+2026-09-06 12:55:40,163 [INFO] Guardado: Los apostólicos — Benito Pérez Galdós
+2026-09-06 12:55:42,780 [INFO] (22/150) Procesando ficha: https://ww3.lectulandia.co/book/un-faccioso-mas-y-algunos-frailes-menos/
+2026-09-06 12:55:43,129 [INFO] Guardado: Un faccioso más y algunos frailes menos — Benito Pérez Galdós
+2026-09-06 12:55:46,338 [INFO] (23/150) Procesando ficha: https://ww3.lectulandia.co/book/un-voluntario-realista/
+2026-09-06 12:55:46,751 [INFO] Guardado: Un voluntario realista — Benito Pérez Galdós
+2026-09-06 12:55:48,338 [INFO] (24/150) Procesando ficha: https://ww3.lectulandia.co/book/narraciones-extraordinarias/
+2026-09-06 12:55:48,685 [INFO] Guardado: Narraciones extraordinarias — Edgar Allan Poe
+2026-09-06 12:55:51,525 [INFO] (25/150) Procesando ficha: https://ww3.lectulandia.co/book/zumalacarregui/
+2026-09-06 12:55:52,046 [INFO] Guardado: Zumalacárregui — Benito Pérez Galdós
+2026-09-06 12:55:54,533 [INFO] (26/150) Procesando ficha: https://ww3.lectulandia.co/book/vampiros-ilustrado/
+2026-09-06 12:55:55,044 [INFO] Guardado: Vampiros (Ilustrado) — Alexandre Dumas
+2026-09-06 12:55:57,370 [INFO] (27/150) Procesando ficha: https://ww3.lectulandia.co/book/el-cura-de-tours/
+2026-09-06 12:55:57,732 [INFO] Guardado: El cura de Tours — Honoré de Balzac
+2026-09-06 12:56:00,006 [INFO] (28/150) Procesando ficha: https://ww3.lectulandia.co/book/la-gaviota/
+2026-09-06 12:56:00,370 [INFO] Guardado: La Gaviota — Antón Chéjov
+2026-09-06 12:56:03,752 [INFO] (29/150) Procesando ficha: https://ww3.lectulandia.co/book/dracula-ilustrado/
+2026-09-06 12:56:04,295 [INFO] Guardado: Drácula (Ilustrado) — Bram Stoker
+2026-09-06 12:56:07,189 [INFO] (30/150) Procesando ficha: https://ww3.lectulandia.co/book/la-pequena-dorrit/
+2026-09-06 12:56:07,537 [INFO] Guardado: La pequeña Dorrit — Charles Dickens
+2026-09-06 12:56:09,148 [INFO] (31/150) Procesando ficha: https://ww3.lectulandia.co/book/nuestro-amigo-comun/
+2026-09-06 12:56:09,611 [INFO] Guardado: Nuestro amigo común — Charles Dickens
+2026-09-06 12:56:12,347 [INFO] (32/150) Procesando ficha: https://ww3.lectulandia.co/book/el-misterio-de-edwin-drood/
+2026-09-06 12:56:12,689 [INFO] Guardado: El misterio de Edwin Drood — Charles Dickens
+2026-09-06 12:56:14,348 [INFO] (33/150) Procesando ficha: https://ww3.lectulandia.co/book/tiempos-dificiles/
+2026-09-06 12:56:14,728 [INFO] Guardado: Tiempos difíciles — Charles Dickens
+2026-09-06 12:56:16,945 [INFO] (34/150) Procesando ficha: https://ww3.lectulandia.co/book/la-tienda-de-antiguedades/
+2026-09-06 12:56:17,472 [INFO] Guardado: La tienda de antigüedades — Charles Dickens
+2026-09-06 12:56:19,179 [INFO] (35/150) Procesando ficha: https://ww3.lectulandia.co/book/la-senora-lirriper/
+2026-09-06 12:56:19,524 [INFO] Guardado: La Señora Lirriper — Charles Dickens
+2026-09-06 12:56:22,022 [INFO] (36/150) Procesando ficha: https://ww3.lectulandia.co/book/la-casa-de-shakespeare/
+2026-09-06 12:56:22,365 [INFO] Guardado: La casa de Shakespeare — Benito Pérez Galdós
+2026-09-06 12:56:25,180 [INFO] (37/150) Procesando ficha: https://ww3.lectulandia.co/book/los-dos-hidalgos-de-verona/
+2026-09-06 12:56:25,531 [INFO] Guardado: Los dos hidalgos de Verona — William Shakespeare
+2026-09-06 12:56:27,883 [INFO] (38/150) Procesando ficha: https://ww3.lectulandia.co/book/llenos-de-vida/
+2026-09-06 12:56:28,402 [INFO] Guardado: Llenos de vida — John Fante
+2026-09-06 12:56:31,323 [INFO] (39/150) Procesando ficha: https://ww3.lectulandia.co/book/morfina/
+2026-09-06 12:56:31,839 [INFO] Guardado: Morfina — Mijaíl Bulgákov
+2026-09-06 12:56:34,325 [INFO] (40/150) Procesando ficha: https://ww3.lectulandia.co/book/marido-y-mujer/
+2026-09-06 12:56:34,670 [INFO] Guardado: Marido y mujer — Wilkie Collins
+2026-09-06 12:56:37,075 [INFO] (41/150) Procesando ficha: https://ww3.lectulandia.co/book/del-asesinato-considerado-como-una-de-las-bellas-artes/
+2026-09-06 12:56:37,591 [INFO] Guardado: Del asesinato considerado como una de las bellas artes — Thomas De Quincey
+2026-09-06 12:56:39,678 [INFO] (42/150) Procesando ficha: https://ww3.lectulandia.co/book/dafnis-y-cloe/
+2026-09-06 12:56:40,184 [INFO] Guardado: Dafnis y Cloe — Longo
+2026-09-06 12:56:42,767 [INFO] (43/150) Procesando ficha: https://ww3.lectulandia.co/book/mansfield-park/
+2026-09-06 12:56:43,123 [INFO] Guardado: Mansfield Park — Jane Austen
+2026-09-06 12:56:45,163 [INFO] (44/150) Procesando ficha: https://ww3.lectulandia.co/book/la-educacion-sentimental/
+2026-09-06 12:56:45,510 [INFO] Guardado: La educación sentimental — Gustave Flaubert
+2026-09-06 12:56:47,051 [INFO] (45/150) Procesando ficha: https://ww3.lectulandia.co/book/textos-fronterizos/
+2026-09-06 12:56:47,557 [INFO] Guardado: Textos fronterizos — Horacio Quiroga
+2026-09-06 12:56:50,598 [INFO] (46/150) Procesando ficha: https://ww3.lectulandia.co/book/las-aventuras-de-pinocho/
+2026-09-06 12:56:50,956 [INFO] Guardado: Las aventuras de Pinocho — Carlo Collodi
+2026-09-06 12:56:52,633 [INFO] (47/150) Procesando ficha: https://ww3.lectulandia.co/book/el-rey-lear/
+2026-09-06 12:56:53,157 [INFO] Guardado: El rey Lear — William Shakespeare
+2026-09-06 12:56:54,802 [INFO] (48/150) Procesando ficha: https://ww3.lectulandia.co/book/el-mundo-de-guermantes/
+2026-09-06 12:56:55,145 [INFO] Guardado: El mundo de Guermantes — Marcel Proust
+2026-09-06 12:56:58,208 [INFO] (49/150) Procesando ficha: https://ww3.lectulandia.co/book/el-amor-el-dandismo-y-la-intriga/
+2026-09-06 12:56:58,716 [INFO] Guardado: El amor, el dandismo y la intriga — Pío Baroja
+2026-09-06 12:57:00,659 [INFO] (50/150) Procesando ficha: https://ww3.lectulandia.co/book/apologia-de-socrates-trad-gredos/
+2026-09-06 12:57:01,183 [INFO] Guardado: Apología de Sócrates (Trad. Gredos) — Platón
+2026-09-06 12:57:03,108 [INFO] (51/150) Procesando ficha: https://ww3.lectulandia.co/book/criton-trad-gredos/
+2026-09-06 12:57:03,616 [INFO] Guardado: Critón (Trad. Gredos) — Platón
+2026-09-06 12:57:05,242 [INFO] (52/150) Procesando ficha: https://ww3.lectulandia.co/book/servidumbre-humana/
+2026-09-06 12:57:05,753 [INFO] Guardado: Servidumbre humana — William Somerset Maugham
+2026-09-06 12:57:08,564 [INFO] (53/150) Procesando ficha: https://ww3.lectulandia.co/book/canciones-de-inocencia-y-de-experiencia/
+2026-09-06 12:57:08,908 [INFO] Guardado: Canciones de inocencia y de experiencia — William Blake
+2026-09-06 12:57:12,242 [INFO] (54/150) Procesando ficha: https://ww3.lectulandia.co/book/la-hija-de-jezabel/
+2026-09-06 12:57:12,585 [INFO] Guardado: La hija de Jezabel — Wilkie Collins
+2026-09-06 12:57:15,332 [INFO] (55/150) Procesando ficha: https://ww3.lectulandia.co/book/el-18-brumario-de-luis-bonaparte/
+2026-09-06 12:57:15,983 [INFO] Guardado: El 18 Brumario de Luis Bonaparte — Karl Marx
+2026-09-06 12:57:18,049 [INFO] (56/150) Procesando ficha: https://ww3.lectulandia.co/book/tesis-sobre-feuerbach-version-ade/
+2026-09-06 12:57:18,757 [INFO] Guardado: Tesis sobre Feuerbach (versión ADE) — Karl Marx
+2026-09-06 12:57:21,531 [INFO] (57/150) Procesando ficha: https://ww3.lectulandia.co/book/diferencia-de-la-filosofia-de-la-naturaleza-en-democrito-y-epicuro-version-ade/
+2026-09-06 12:57:22,048 [INFO] Guardado: Diferencia de la filosofía de la naturaleza en Demócrito y Epicuro (versión ADE) — Karl Marx
+2026-09-06 12:57:24,244 [INFO] (58/150) Procesando ficha: https://ww3.lectulandia.co/book/el-18-brumario-de-luis-bonaparte-version-ade/
+2026-09-06 12:57:24,818 [INFO] Guardado: El 18 Brumario de Luis Bonaparte (versión ADE) — Karl Marx
+2026-09-06 12:57:26,837 [INFO] (59/150) Procesando ficha: https://ww3.lectulandia.co/book/la-tempestad/
+2026-09-06 12:57:27,338 [INFO] Guardado: La tempestad — William Shakespeare
+2026-09-06 12:57:29,677 [INFO] (60/150) Procesando ficha: https://ww3.lectulandia.co/book/mujercitas/
+2026-09-06 12:57:30,196 [INFO] Guardado: Mujercitas — Louisa May Alcott
+2026-09-06 12:57:33,114 [INFO] (61/150) Procesando ficha: https://ww3.lectulandia.co/book/sobre-el-arte-de-contar-historias/
+2026-09-06 12:57:33,616 [INFO] Guardado: Sobre el arte de contar historias — Horacio Quiroga
+2026-09-06 12:57:36,777 [INFO] (62/150) Procesando ficha: https://ww3.lectulandia.co/book/cuentos-dispersos/
+2026-09-06 12:57:37,134 [INFO] Guardado: Cuentos dispersos — Horacio Quiroga
+2026-09-06 12:57:40,571 [INFO] (63/150) Procesando ficha: https://ww3.lectulandia.co/book/fabulas-morales/
+2026-09-06 12:57:41,076 [INFO] Guardado: Fábulas morales — Félix María Samaniego
+2026-09-06 12:57:42,735 [INFO] (64/150) Procesando ficha: https://ww3.lectulandia.co/book/germinal/
+2026-09-06 12:57:43,481 [INFO] Guardado: Germinal — Émile Zola
+2026-09-06 12:57:45,426 [INFO] (65/150) Procesando ficha: https://ww3.lectulandia.co/book/el-secreto-de-sarah/
+2026-09-06 12:57:45,768 [INFO] Guardado: El secreto de Sarah — Wilkie Collins
+2026-09-06 12:57:48,996 [INFO] (66/150) Procesando ficha: https://ww3.lectulandia.co/book/la-venus-de-las-pieles/
+2026-09-06 12:57:49,525 [INFO] Guardado: La Venus de las pieles — Leopold von Sacher-Masoch
+2026-09-06 12:57:52,584 [INFO] (67/150) Procesando ficha: https://ww3.lectulandia.co/book/julio-cesar/
+2026-09-06 12:57:52,934 [INFO] Guardado: Julio César — William Shakespeare
+2026-09-06 12:57:56,168 [INFO] (68/150) Procesando ficha: https://ww3.lectulandia.co/book/el-candor-del-padre-brown/
+2026-09-06 12:57:56,695 [INFO] Guardado: El candor del padre Brown — Gilbert Keith Chesterton
+2026-09-06 12:57:59,185 [INFO] (69/150) Procesando ficha: https://ww3.lectulandia.co/book/mendel-el-de-los-libros/
+2026-09-06 12:57:59,711 [INFO] Guardado: Mendel el de los libros — Stefan Zweig
+2026-09-06 12:58:01,420 [INFO] (70/150) Procesando ficha: https://ww3.lectulandia.co/book/poder-burgues-y-poder-revolucionario/
+2026-09-06 12:58:01,990 [INFO] Guardado: Poder burgués y poder revolucionario — Mario Roberto Santucho
+2026-09-06 12:58:05,360 [INFO] (71/150) Procesando ficha: https://ww3.lectulandia.co/book/el-alcalde-de-zalamea/
+2026-09-06 12:58:05,892 [INFO] Guardado: El alcalde de Zalamea — Pedro Calderón de la Barca
+2026-09-06 12:58:09,165 [INFO] (72/150) Procesando ficha: https://ww3.lectulandia.co/book/relatos-1-1913-1927/
+2026-09-06 12:58:09,516 [INFO] Guardado: Relatos 1 (1913-1927) — Bertolt Brecht
+2026-09-06 12:58:12,448 [INFO] (73/150) Procesando ficha: https://ww3.lectulandia.co/book/relatos-2-1927-1949/
+2026-09-06 12:58:12,961 [INFO] Guardado: Relatos 2 (1927-1949) — Bertolt Brecht
+2026-09-06 12:58:14,503 [INFO] (74/150) Procesando ficha: https://ww3.lectulandia.co/book/basil/
+2026-09-06 12:58:15,011 [INFO] Guardado: Basil — Wilkie Collins
+2026-09-06 12:58:18,370 [INFO] (75/150) Procesando ficha: https://ww3.lectulandia.co/book/los-pazos-de-ulloa/
+2026-09-06 12:58:18,952 [INFO] Guardado: Los pazos de Ulloa — Emilia Pardo Bazán
+2026-09-06 12:58:20,774 [INFO] (76/150) Procesando ficha: https://ww3.lectulandia.co/book/viaje-al-oeste-las-aventuras-del-rey-mono/
+2026-09-06 12:58:21,302 [INFO] Guardado: Viaje al Oeste. Las aventuras del Rey Mono — Anónimo
+2026-09-06 12:58:24,332 [INFO] (77/150) Procesando ficha: https://ww3.lectulandia.co/book/emma/
+2026-09-06 12:58:24,856 [INFO] Guardado: Emma — Jane Austen
+2026-09-06 12:58:26,495 [INFO] (78/150) Procesando ficha: https://ww3.lectulandia.co/book/el-fantasma-de-la-opera/
+2026-09-06 12:58:27,013 [INFO] Guardado: El fantasma de la ópera — Gastón Leroux
+2026-09-06 12:58:30,373 [INFO] (79/150) Procesando ficha: https://ww3.lectulandia.co/book/las-hojas-caidas/
+2026-09-06 12:58:30,734 [INFO] Guardado: Las hojas caídas — Wilkie Collins
+2026-09-06 12:58:33,109 [INFO] (80/150) Procesando ficha: https://ww3.lectulandia.co/book/cuentos-completos-vladimir-nabokov/
+2026-09-06 12:58:33,477 [INFO] Guardado: Cuentos completos — Vladimir Nabokov
+2026-09-06 12:58:36,408 [INFO] (81/150) Procesando ficha: https://ww3.lectulandia.co/book/el-vampiro/
+2026-09-06 12:58:36,931 [INFO] Guardado: El vampiro — John William Polidori
+2026-09-06 12:58:39,205 [INFO] (82/150) Procesando ficha: https://ww3.lectulandia.co/book/diferencia-de-la-filosofia-de-la-naturaleza-en-democrito-y-epicuro/
+2026-09-06 12:58:39,717 [INFO] Guardado: Diferencia de la filosofía de la naturaleza en Demócrito y Epicuro — Karl Marx
+2026-09-06 12:58:41,263 [INFO] (83/150) Procesando ficha: https://ww3.lectulandia.co/book/el-retrato-de-dorian-gray/
+2026-09-06 12:58:41,825 [INFO] Guardado: El retrato de Dorian Gray — Oscar Wilde
+2026-09-06 12:58:45,051 [INFO] (84/150) Procesando ficha: https://ww3.lectulandia.co/book/kokoro/
+2026-09-06 12:58:45,412 [INFO] Guardado: Kokoro — Natsume Söseki
+2026-09-06 12:58:47,386 [INFO] (85/150) Procesando ficha: https://ww3.lectulandia.co/book/botchan/
+2026-09-06 12:58:47,907 [INFO] Guardado: Botchan — Natsume Söseki
+2026-09-06 12:58:51,036 [INFO] (86/150) Procesando ficha: https://ww3.lectulandia.co/book/musashi/
+2026-09-06 12:58:51,791 [INFO] Guardado: Musashi — Eiji Yoshikawa
+2026-09-06 12:58:53,902 [INFO] (87/150) Procesando ficha: https://ww3.lectulandia.co/book/guerra-y-paz-ed-muchnik/
+2026-09-06 12:58:54,431 [INFO] Guardado: Guerra y paz (Ed. Muchnik) — León Tolstói
+2026-09-06 12:58:57,615 [INFO] (88/150) Procesando ficha: https://ww3.lectulandia.co/book/el-barrio-maldito/
+2026-09-06 12:58:58,243 [INFO] Guardado: El barrio maldito — Félix Urabayen
+2026-09-06 12:59:00,285 [INFO] (89/150) Procesando ficha: https://ww3.lectulandia.co/book/tiempo-de-silencio/
+2026-09-06 12:59:00,799 [INFO] Guardado: Tiempo de silencio — Luis Martín-Santos
+2026-09-06 12:59:03,760 [INFO] (90/150) Procesando ficha: https://ww3.lectulandia.co/book/senda-hacia-tierras-hondas/
+2026-09-06 12:59:04,117 [INFO] Guardado: Senda hacia tierras hondas — Bashô Matsuo
+2026-09-06 12:59:06,554 [INFO] (91/150) Procesando ficha: https://ww3.lectulandia.co/book/lisistrata/
+2026-09-06 12:59:06,910 [INFO] Guardado: Lisístrata — Aristófanes
+2026-09-06 12:59:09,908 [INFO] (92/150) Procesando ficha: https://ww3.lectulandia.co/book/alrededor-de-la-luna/
+2026-09-06 12:59:10,282 [INFO] Guardado: Alrededor de la luna — Julio Verne
+2026-09-06 12:59:12,781 [INFO] (93/150) Procesando ficha: https://ww3.lectulandia.co/book/robin-hood-2/
+2026-09-06 12:59:13,286 [INFO] Guardado: Robin Hood — Anónimo
+2026-09-06 12:59:15,232 [INFO] (94/150) Procesando ficha: https://ww3.lectulandia.co/book/don-juan-tenorio/
+2026-09-06 12:59:15,584 [INFO] Guardado: Don Juan Tenorio — José Zorrilla
+2026-09-06 12:59:17,828 [INFO] (95/150) Procesando ficha: https://ww3.lectulandia.co/book/los-tres-mosqueteros/
+2026-09-06 12:59:18,373 [INFO] Guardado: Los tres mosqueteros — Alexandre Dumas
+2026-09-06 12:59:20,902 [INFO] (96/150) Procesando ficha: https://ww3.lectulandia.co/book/de-la-tierra-a-la-luna/
+2026-09-06 12:59:21,271 [INFO] Guardado: De la Tierra a la Luna — Julio Verne
+2026-09-06 12:59:23,741 [INFO] (97/150) Procesando ficha: https://ww3.lectulandia.co/book/las-furias/
+2026-09-06 12:59:24,257 [INFO] Guardado: Las furias — Pío Baroja
+2026-09-06 12:59:26,780 [INFO] (98/150) Procesando ficha: https://ww3.lectulandia.co/book/el-amante/
+2026-09-06 12:59:27,306 [INFO] Guardado: El amante — Marguerite Duras
+2026-09-06 12:59:29,517 [INFO] (99/150) Procesando ficha: https://ww3.lectulandia.co/book/la-abadia-de-northanger/
+2026-09-06 12:59:29,973 [INFO] Guardado: La abadía de Northanger — Jane Austen
+2026-09-06 12:59:32,657 [INFO] (100/150) Procesando ficha: https://ww3.lectulandia.co/book/el-extrano-caso-del-dr-jekyll-y-mr-hyde/
+2026-09-06 12:59:33,184 [INFO] Guardado: El extraño caso del Dr. Jekyll y Mr. Hyde — Robert Louis Stevenson
+2026-09-06 12:59:36,510 [INFO] (101/150) Procesando ficha: https://ww3.lectulandia.co/book/mas-alla-y-otros-cuentos/
+2026-09-06 12:59:36,865 [INFO] Guardado: Más allá y otros cuentos — Horacio Quiroga
+2026-09-06 12:59:40,026 [INFO] (102/150) Procesando ficha: https://ww3.lectulandia.co/book/los-desterrados-y-otros-cuentos/
+2026-09-06 12:59:40,551 [INFO] Guardado: Los desterrados y otros cuentos — Horacio Quiroga
+2026-09-06 12:59:42,211 [INFO] (103/150) Procesando ficha: https://ww3.lectulandia.co/book/el-desierto-y-otros-cuentos/
+2026-09-06 12:59:42,574 [INFO] Guardado: El desierto y otros cuentos — Horacio Quiroga
+2026-09-06 12:59:45,272 [INFO] (104/150) Procesando ficha: https://ww3.lectulandia.co/book/la-cartuja-de-parma/
+2026-09-06 12:59:45,622 [INFO] Guardado: La cartuja de Parma — Stendhal
+2026-09-06 12:59:48,249 [INFO] (105/150) Procesando ficha: https://ww3.lectulandia.co/book/macbeth-una-tragedia-en-5-actos/
+2026-09-06 12:59:48,762 [INFO] Guardado: Macbeth. Una tragedia en 5 actos — William Shakespeare
+2026-09-06 12:59:51,537 [INFO] (106/150) Procesando ficha: https://ww3.lectulandia.co/book/las-mil-y-una-noches-trad-de-juan-vernet/
+2026-09-06 12:59:52,072 [INFO] Guardado: Las mil y una noches (trad. de Juan Vernet) — Anónimo
+2026-09-06 12:59:53,612 [INFO] (107/150) Procesando ficha: https://ww3.lectulandia.co/book/la-peste/
+2026-09-06 12:59:54,150 [INFO] Guardado: La peste — Albert Camus
+2026-09-06 12:59:56,151 [INFO] (108/150) Procesando ficha: https://ww3.lectulandia.co/book/pequeno-hombre-y-ahora-que/
+2026-09-06 12:59:56,525 [INFO] Guardado: Pequeño hombre ¿y ahora qué? — Hans Fallada
+2026-09-06 12:59:58,937 [INFO] (109/150) Procesando ficha: https://ww3.lectulandia.co/book/el-fulgor-y-la-sangre/
+2026-09-06 12:59:59,524 [INFO] Guardado: El fulgor y la sangre — Ignacio Aldecoa
+2026-09-06 13:00:02,957 [INFO] (110/150) Procesando ficha: https://ww3.lectulandia.co/book/ana-karenina/
+2026-09-06 13:00:03,487 [INFO] Guardado: Ana Karenina — León Tolstói
+2026-09-06 13:00:05,372 [INFO] (111/150) Procesando ficha: https://ww3.lectulandia.co/book/anna-karenina-ed-alba-2010/
+2026-09-06 13:00:05,730 [INFO] Guardado: Anna Karénina (Ed. Alba 2010) — León Tolstói
+2026-09-06 13:00:08,835 [INFO] (112/150) Procesando ficha: https://ww3.lectulandia.co/book/guerra-y-paz/
+2026-09-06 13:00:09,356 [INFO] Guardado: Guerra y paz — León Tolstói
+2026-09-06 13:00:12,718 [INFO] (113/150) Procesando ficha: https://ww3.lectulandia.co/book/persuasion/
+2026-09-06 13:00:13,083 [INFO] Guardado: Persuasión — Jane Austen
+2026-09-06 13:00:14,830 [INFO] (114/150) Procesando ficha: https://ww3.lectulandia.co/book/el-enfermo-imaginario/
+2026-09-06 13:00:15,270 [INFO] Guardado: El enfermo imaginario — Molière
+2026-09-06 13:00:18,337 [INFO] (115/150) Procesando ficha: https://ww3.lectulandia.co/book/retorno-a-brideshead/
+2026-09-06 13:00:18,852 [INFO] Guardado: Retorno a Brideshead — Evelyn Waugh
+2026-09-06 13:00:20,406 [INFO] (116/150) Procesando ficha: https://ww3.lectulandia.co/book/el-capote-trad-irene-tchernova/
+2026-09-06 13:00:20,968 [INFO] Guardado: El capote (Trad. Irene Tchernova) — Nikolái Gógol
+2026-09-06 13:00:23,533 [INFO] (117/150) Procesando ficha: https://ww3.lectulandia.co/book/el-capote-trad-victor-gallego/
+2026-09-06 13:00:24,052 [INFO] Guardado: El capote (Trad. Víctor Gallego) — Nikolái Gógol
+2026-09-06 13:00:27,300 [INFO] (118/150) Procesando ficha: https://ww3.lectulandia.co/book/callejon-sin-salida/
+2026-09-06 13:00:27,813 [INFO] Guardado: Callejón sin salida — Charles Dickens
+2026-09-06 13:00:29,764 [INFO] (119/150) Procesando ficha: https://ww3.lectulandia.co/book/sherlock-holmes-la-coleccion-completa/
+2026-09-06 13:00:30,285 [INFO] Guardado: Sherlock Holmes. La colección completa — Arthur Conan Doyle
+2026-09-06 13:00:32,067 [INFO] (120/150) Procesando ficha: https://ww3.lectulandia.co/book/robinson-crusoe/
+2026-09-06 13:00:32,607 [INFO] Guardado: Robinson Crusoe — Daniel Defoe
+2026-09-06 13:00:35,545 [INFO] (121/150) Procesando ficha: https://ww3.lectulandia.co/book/el-sabueso-de-los-baskerville/
+2026-09-06 13:00:36,076 [INFO] Guardado: El sabueso de los Baskerville — Arthur Conan Doyle
+2026-09-06 13:00:38,174 [INFO] (122/150) Procesando ficha: https://ww3.lectulandia.co/book/anaconda-y-otros-cuentos/
+2026-09-06 13:00:38,704 [INFO] Guardado: Anaconda — Horacio Quiroga
+2026-09-06 13:00:41,080 [INFO] (123/150) Procesando ficha: https://ww3.lectulandia.co/book/el-salvaje-y-otros-cuentos/
+2026-09-06 13:00:41,477 [INFO] Guardado: El salvaje y otros cuentos — Horacio Quiroga
+2026-09-06 13:00:43,934 [INFO] (124/150) Procesando ficha: https://ww3.lectulandia.co/book/cumbres-borrascosas/
+2026-09-06 13:00:44,459 [INFO] Guardado: Cumbres borrascosas — Emily Brontë
+2026-09-06 13:00:46,601 [INFO] (125/150) Procesando ficha: https://ww3.lectulandia.co/book/el-valle-del-terror/
+2026-09-06 13:00:47,112 [INFO] Guardado: El valle del terror — Arthur Conan Doyle
+2026-09-06 13:00:49,938 [INFO] (126/150) Procesando ficha: https://ww3.lectulandia.co/book/el-sabor-de-la-venganza/
+2026-09-06 13:00:50,450 [INFO] Guardado: El sabor de la venganza — Pío Baroja
+2026-09-06 13:00:53,460 [INFO] (127/150) Procesando ficha: https://ww3.lectulandia.co/book/por-el-camino-de-swann/
+2026-09-06 13:00:53,998 [INFO] Guardado: Por el camino de Swann — Marcel Proust
+2026-09-06 13:00:57,250 [INFO] (128/150) Procesando ficha: https://ww3.lectulandia.co/book/manalive/
+2026-09-06 13:00:57,764 [INFO] Guardado: Manalive — Gilbert Keith Chesterton
+2026-09-06 13:01:01,249 [INFO] (129/150) Procesando ficha: https://ww3.lectulandia.co/book/cuentos-de-amor-de-locura-y-de-muerte/
+2026-09-06 13:01:01,762 [INFO] Guardado: Cuentos de amor de locura y de muerte — Horacio Quiroga
+2026-09-06 13:01:04,149 [INFO] (130/150) Procesando ficha: https://ww3.lectulandia.co/book/el-periquillo-sarniento/
+2026-09-06 13:01:04,649 [INFO] Guardado: El Periquillo Sarniento — José Joaquín Fernández de Lizardi
+2026-09-06 13:01:06,471 [INFO] (131/150) Procesando ficha: https://ww3.lectulandia.co/book/las-mil-y-una-noches/
+2026-09-06 13:01:07,017 [INFO] Guardado: Las mil y una noches — Anónimo
+2026-09-06 13:01:09,720 [INFO] (132/150) Procesando ficha: https://ww3.lectulandia.co/book/cuentos-de-la-selva-para-los-ninos/
+2026-09-06 13:01:10,236 [INFO] Guardado: Cuentos de la selva para los niños — Horacio Quiroga
+2026-09-06 13:01:12,064 [INFO] (133/150) Procesando ficha: https://ww3.lectulandia.co/book/tesis-sobre-feuerbach/
+2026-09-06 13:01:12,422 [INFO] Guardado: Tesis sobre Feuerbach — Karl Marx
+2026-09-06 13:01:15,064 [INFO] (134/150) Procesando ficha: https://ww3.lectulandia.co/book/sin-nombre/
+2026-09-06 13:01:15,415 [INFO] Guardado: Sin nombre — Wilkie Collins
+2026-09-06 13:01:18,765 [INFO] (135/150) Procesando ficha: https://ww3.lectulandia.co/book/confesiones-de-un-bribon/
+2026-09-06 13:01:19,268 [INFO] Guardado: Confesiones de un bribón — Wilkie Collins
+2026-09-06 13:01:21,824 [INFO] (136/150) Procesando ficha: https://ww3.lectulandia.co/book/doble-engano/
+2026-09-06 13:01:22,179 [INFO] Guardado: Doble engaño — Wilkie Collins
+2026-09-06 13:01:24,556 [INFO] (137/150) Procesando ficha: https://ww3.lectulandia.co/book/primeras-canciones/
+2026-09-06 13:01:24,931 [INFO] Guardado: Primeras canciones — Federico García Lorca
+2026-09-06 13:01:27,210 [INFO] (138/150) Procesando ficha: https://ww3.lectulandia.co/book/el-hombre-de-negro/
+2026-09-06 13:01:27,560 [INFO] Guardado: El hombre de negro — Wilkie Collins
+2026-09-06 13:01:29,381 [INFO] (139/150) Procesando ficha: https://ww3.lectulandia.co/book/cuentos-de-canterbury/
+2026-09-06 13:01:29,918 [INFO] Guardado: Cuentos de Canterbury — Geoffrey Chaucer
+2026-09-06 13:01:32,819 [INFO] (140/150) Procesando ficha: https://ww3.lectulandia.co/book/la-ley-y-la-dama/
+2026-09-06 13:01:33,345 [INFO] Guardado: La ley y la dama — Wilkie Collins
+2026-09-06 13:01:35,896 [INFO] (141/150) Procesando ficha: https://ww3.lectulandia.co/book/apologia-de-socrates/
+2026-09-06 13:01:36,411 [INFO] Guardado: Apología de Sócrates — Platón
+2026-09-06 13:01:39,101 [INFO] (142/150) Procesando ficha: https://ww3.lectulandia.co/book/armadale/
+2026-09-06 13:01:39,639 [INFO] Guardado: Armadale — Wilkie Collins
+2026-09-06 13:01:41,613 [INFO] (143/150) Procesando ficha: https://ww3.lectulandia.co/book/el-legado-de-cain/
+2026-09-06 13:01:42,114 [INFO] Guardado: El legado de Caín — Wilkie Collins
+2026-09-06 13:01:43,751 [INFO] (144/150) Procesando ficha: https://ww3.lectulandia.co/book/la-historia-de-genji/
+2026-09-06 13:01:44,280 [INFO] Guardado: La historia de Genji — Murasaki Shikibu
+2026-09-06 13:01:46,953 [INFO] (145/150) Procesando ficha: https://ww3.lectulandia.co/book/absalon-absalon/
+2026-09-06 13:01:47,327 [INFO] Guardado: ¡Absalón, Absalón! — William Faulkner
+2026-09-06 13:01:49,083 [INFO] (146/150) Procesando ficha: https://ww3.lectulandia.co/book/el-papa-del-mar/
+2026-09-06 13:01:49,430 [INFO] Guardado: El Papa del mar — Vicente Blasco Ibáñez
+2026-09-06 13:01:52,633 [INFO] (147/150) Procesando ficha: https://ww3.lectulandia.co/book/rebelion-en-la-granja/
+2026-09-06 13:01:53,187 [INFO] Guardado: Rebelión en la granja — George Orwell
+2026-09-06 13:01:55,646 [INFO] (148/150) Procesando ficha: https://ww3.lectulandia.co/book/ferdydurke/
+2026-09-06 13:01:56,011 [INFO] Guardado: Ferdydurke — Witold Gombrowicz
+2026-09-06 13:01:57,611 [INFO] (149/150) Procesando ficha: https://ww3.lectulandia.co/book/el-loco/
+2026-09-06 13:01:58,133 [INFO] Guardado: El loco — Gibran Khalil Gibran
+2026-09-06 13:02:00,012 [INFO] (150/150) Procesando ficha: https://ww3.lectulandia.co/book/totem-y-tabu/
+2026-09-06 13:02:00,524 [INFO] Guardado: Tótem y tabú — Sigmund Freud
+2026-09-06 13:02:04,163 [INFO] Scraping finalizado. Libros válidos guardados: 150
+2026-09-06 13:02:04,202 [INFO] ----- Controles mínimos de calidad -----
+2026-09-06 13:02:04,203 [INFO] Duplicados por url_libro: 0 (esperado 0)
+2026-09-06 13:02:04,203 [INFO] Registros sin título: 0 (esperado 0)
+2026-09-06 13:02:04,204 [INFO] URLs inválidas: 0 (esperado 0)
+2026-09-06 13:02:04,204 [INFO] Registros con sinopsis: 124/150 (82.7%) (se espera mayoría)
+2026-09-06 13:02:04,204 [INFO] Registros con autor: 150/150
+2026-09-06 13:02:04,204 [INFO] Registros con géneros: 150/150
+2026-09-06 13:02:04,204 [INFO] Cantidad final de libros: 150 (objetivo: 150)
+2026-09-06 13:02:04,204 [INFO] Archivo final generado en: D:\Github\TUIA_Segundo\2Cuatrimestre\4C_PNL\TP1\libros.csv

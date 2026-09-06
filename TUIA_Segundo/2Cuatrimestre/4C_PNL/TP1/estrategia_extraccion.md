@@ -120,13 +120,13 @@ pip install -r requirements.txt
 playwright install chromium
 
 # Ejecución estándar: primeros 150 libros, headless
-python scraper_lectulandia.py
+python .\TP1\scraper_lectulandia.py
 
 # Cambiar la cantidad objetivo
-python scraper_lectulandia.py --cantidad 100
+python .\TP1\scraper_lectulandia.py --cantidad 100
 
 # Ver el navegador mientras corre (debug)
-python scraper_lectulandia.py --con-ventana
+python .\TP1\scraper_lectulandia.py --con-ventana
 ```
 
 Salidas generadas:
