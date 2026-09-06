@@ -24,3 +24,12 @@ TUIA_Primero/2Cuatrimestre/BasesdeDatos1/Unidad 4 Variables locales-Procedimient
 TUIA_Segundo/1Cuatrimestre/3C_Redes_de_Datos/Practica/U3.4-Ejercicio 7.3.7 - Redes de Datos.mp4
 TUIA_Segundo/2Cuatrimestre/4C_MachineLearning/venvAA1
 TUIA_Segundo/2Cuatrimestre/4C_PNL/venvPNL
+# Entornos virtuales por defecto y variantes con prefijo o sufijo
+.venv/
+.venv*/
+venv/
+venv*/
+env/
+env*/
+*_venv/
+*_env/
