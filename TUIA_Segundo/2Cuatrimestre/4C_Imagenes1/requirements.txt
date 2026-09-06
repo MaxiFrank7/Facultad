@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+opencv-contrib-Python
+# Opcional: soporte para Jupyter Notebooks / VS Code
+ipykernel
+jupyterlab

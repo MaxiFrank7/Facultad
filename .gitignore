@@ -33,3 +33,11 @@ env/
 env*/
 *_venv/
 *_env/
+# Caché de Python y herramientas de análisis
+_pycache_/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+_pycache_/
+*.pyc
